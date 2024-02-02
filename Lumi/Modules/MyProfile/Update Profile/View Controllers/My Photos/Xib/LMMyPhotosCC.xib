@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LMMyPhotosCC" id="gTV-IL-0wX" customClass="LMMyPhotosCC" customModule="Lumi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="183"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="153" height="183"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNB-1y-yvS">
+                        <rect key="frame" x="10" y="10" width="133" height="163"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VVo-RE-Jev">
+                                <rect key="frame" x="40" y="58" width="53.5" height="47"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8S-Hb-ogz">
+                                        <rect key="frame" x="0.0" y="0.0" width="53.5" height="32.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="addButton"/>
+                                        <connections>
+                                            <action selector="addButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="MlX-nS-tds"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U42-zL-fvx">
+                                        <rect key="frame" x="0.0" y="32.5" width="53.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="12"/>
+                                        <color key="textColor" name="cloudBlue"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ps5-7n-58H">
+                                <rect key="frame" x="0.0" y="0.0" width="133" height="163"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zS-6j-Z6F">
+                                <rect key="frame" x="88" y="128" width="45" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="icProfileImgCross"/>
+                                <connections>
+                                    <action selector="crossButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Jjj-SD-B3I"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnI-Os-af1">
+                                <rect key="frame" x="31.5" y="132" width="101.5" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Picture" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGX-ql-KLO">
+                                        <rect key="frame" x="10" y="0.0" width="81.5" height="31"/>
+                                        <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="redButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aGX-ql-KLO" secondAttribute="trailing" constant="10" id="8IL-DG-etn"/>
+                                    <constraint firstItem="aGX-ql-KLO" firstAttribute="leading" secondItem="rnI-Os-af1" secondAttribute="leading" constant="10" id="96K-jo-8rT"/>
+                                    <constraint firstAttribute="height" constant="31" id="Fmb-p5-YCM"/>
+                                    <constraint firstItem="aGX-ql-KLO" firstAttribute="top" secondItem="rnI-Os-af1" secondAttribute="top" id="W3F-8Z-XNJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="aGX-ql-KLO" secondAttribute="bottom" id="iA4-wK-3Y7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.047058824449777603" green="0.05098038911819458" blue="0.10196079313755035" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ps5-7n-58H" firstAttribute="leading" secondItem="bNB-1y-yvS" secondAttribute="leading" id="6p4-4O-SbB"/>
+                            <constraint firstAttribute="trailing" secondItem="rnI-Os-af1" secondAttribute="trailing" id="CnI-rM-jhU"/>
+                            <constraint firstAttribute="bottom" secondItem="3zS-6j-Z6F" secondAttribute="bottom" id="EUi-pq-HZG"/>
+                            <constraint firstAttribute="trailing" secondItem="Ps5-7n-58H" secondAttribute="trailing" id="F5O-uq-4vz"/>
+                            <constraint firstItem="VVo-RE-Jev" firstAttribute="centerX" secondItem="bNB-1y-yvS" secondAttribute="centerX" id="JTe-v9-Wx9"/>
+                            <constraint firstAttribute="bottom" secondItem="rnI-Os-af1" secondAttribute="bottom" id="UxD-fQ-IlM"/>
+                            <constraint firstAttribute="trailing" secondItem="3zS-6j-Z6F" secondAttribute="trailing" id="VJ5-um-PqO"/>
+                            <constraint firstAttribute="bottom" secondItem="Ps5-7n-58H" secondAttribute="bottom" id="YSq-bP-pgc"/>
+                            <constraint firstItem="VVo-RE-Jev" firstAttribute="centerY" secondItem="bNB-1y-yvS" secondAttribute="centerY" id="dgK-cs-pTb"/>
+                            <constraint firstItem="Ps5-7n-58H" firstAttribute="top" secondItem="bNB-1y-yvS" secondAttribute="top" id="iQs-wa-xvR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bNB-1y-yvS" secondAttribute="trailing" constant="10" id="3SX-Qv-3cU"/>
+                <constraint firstItem="bNB-1y-yvS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Ri0-uX-9Kc"/>
+                <constraint firstItem="bNB-1y-yvS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="cXg-28-LnS"/>
+                <constraint firstAttribute="bottom" secondItem="bNB-1y-yvS" secondAttribute="bottom" constant="10" id="dMY-Ge-hlJ"/>
+            </constraints>
+            <size key="customSize" width="153" height="183"/>
+            <connections>
+                <outlet property="addButton" destination="P8S-Hb-ogz" id="N4T-dt-qaR"/>
+                <outlet property="cellView" destination="bNB-1y-yvS" id="tZw-K1-Uzf"/>
+                <outlet property="crossButton" destination="3zS-6j-Z6F" id="My4-HT-W3v"/>
+                <outlet property="currentProfileView" destination="rnI-Os-af1" id="SXK-EG-n0X"/>
+                <outlet property="userImage" destination="Ps5-7n-58H" id="OGL-0z-Ujy"/>
+            </connections>
+            <point key="canvasLocation" x="212.31884057971016" y="134.26339285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="addButton" width="18.5" height="18.5"/>
+        <image name="icProfileImgCross" width="21" height="21"/>
+        <namedColor name="cloudBlue">
+            <color red="0.69411764705882351" green="0.70196078431372544" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="redButton">
+            <color red="1" green="0.13333333333333333" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

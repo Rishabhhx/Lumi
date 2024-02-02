@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LMSettingsTC" rowHeight="84" id="KGk-i7-Jjw" customClass="LMSettingsTC" customModule="Lumi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPr-4h-DBa">
+                        <rect key="frame" x="0.0" y="0.0" width="384" height="84"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icSettingsAboutUs" translatesAutoresizingMaskIntoConstraints="NO" id="0FL-Sp-zrA">
+                                <rect key="frame" x="20" y="0.0" width="30" height="84"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NZ-au-YP8">
+                                <rect key="frame" x="70" y="32" width="163" height="20"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-UD-eJY">
+                                <rect key="frame" x="70" y="83.5" width="294" height="0.5"/>
+                                <color key="backgroundColor" red="0.18431372549019609" green="0.20000000000000001" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="P5Q-zl-jcs"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.5" id="fNI-ux-cjR"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icSettingsArrow" translatesAutoresizingMaskIntoConstraints="NO" id="7c6-bi-b4h">
+                                <rect key="frame" x="357" y="0.0" width="7" height="83.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAD-4S-lCB">
+                                <rect key="frame" x="70" y="57" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
+                                <color key="textColor" name="cancelBorder"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6no-9f-4VN">
+                                <rect key="frame" x="75" y="52" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="ktk-DX-XFw"/>
+                                    <constraint firstAttribute="width" constant="10" id="th0-W8-gDe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="topBar"/>
+                        <constraints>
+                            <constraint firstItem="0FL-Sp-zrA" firstAttribute="top" secondItem="uPr-4h-DBa" secondAttribute="top" id="91W-SG-OgU"/>
+                            <constraint firstAttribute="bottom" secondItem="6a2-UD-eJY" secondAttribute="bottom" id="MZJ-dS-zMX"/>
+                            <constraint firstItem="6no-9f-4VN" firstAttribute="leading" secondItem="VAD-4S-lCB" secondAttribute="trailing" constant="5" id="Oaw-3R-mHy"/>
+                            <constraint firstItem="6a2-UD-eJY" firstAttribute="top" secondItem="7c6-bi-b4h" secondAttribute="bottom" id="Oug-UV-pCf"/>
+                            <constraint firstItem="VAD-4S-lCB" firstAttribute="leading" secondItem="0FL-Sp-zrA" secondAttribute="trailing" constant="20" id="Rp8-XM-MH4"/>
+                            <constraint firstItem="7c6-bi-b4h" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8NZ-au-YP8" secondAttribute="trailing" constant="5" id="VKR-Mv-IHz"/>
+                            <constraint firstItem="VAD-4S-lCB" firstAttribute="top" secondItem="8NZ-au-YP8" secondAttribute="bottom" constant="5" id="Vo9-dH-BtC"/>
+                            <constraint firstItem="0FL-Sp-zrA" firstAttribute="leading" secondItem="uPr-4h-DBa" secondAttribute="leading" constant="20" id="Weg-Ge-ANf"/>
+                            <constraint firstItem="7c6-bi-b4h" firstAttribute="top" secondItem="uPr-4h-DBa" secondAttribute="top" id="asj-Co-EWO"/>
+                            <constraint firstAttribute="trailing" secondItem="7c6-bi-b4h" secondAttribute="trailing" constant="20" id="bGZ-4u-bLA"/>
+                            <constraint firstAttribute="bottom" secondItem="0FL-Sp-zrA" secondAttribute="bottom" id="c52-ty-BeZ"/>
+                            <constraint firstAttribute="trailing" secondItem="6a2-UD-eJY" secondAttribute="trailing" constant="20" id="eFo-Vp-vtK"/>
+                            <constraint firstItem="6a2-UD-eJY" firstAttribute="leading" secondItem="0FL-Sp-zrA" secondAttribute="trailing" constant="20" id="neF-nI-Vte"/>
+                            <constraint firstItem="8NZ-au-YP8" firstAttribute="centerY" secondItem="uPr-4h-DBa" secondAttribute="centerY" id="pVO-12-03J"/>
+                            <constraint firstItem="6no-9f-4VN" firstAttribute="centerY" secondItem="VAD-4S-lCB" secondAttribute="centerY" id="sxa-ND-fEg"/>
+                            <constraint firstItem="8NZ-au-YP8" firstAttribute="leading" secondItem="0FL-Sp-zrA" secondAttribute="trailing" constant="20" id="wD5-QV-2XH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="topBar"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="uPr-4h-DBa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ITr-R8-MeI"/>
+                    <constraint firstAttribute="trailing" secondItem="uPr-4h-DBa" secondAttribute="trailing" id="KgO-i9-2FB"/>
+                    <constraint firstAttribute="bottom" secondItem="uPr-4h-DBa" secondAttribute="bottom" id="n4U-ls-vh2"/>
+                    <constraint firstItem="uPr-4h-DBa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ukt-aq-PJ5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="topBar"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellImage" destination="0FL-Sp-zrA" id="97v-lb-871"/>
+                <outlet property="cellLabel" destination="8NZ-au-YP8" id="qlQ-sd-u6l"/>
+                <outlet property="emailLabel" destination="VAD-4S-lCB" id="xea-lt-kOV"/>
+                <outlet property="verifiedImage" destination="6no-9f-4VN" id="cWV-kl-lBh"/>
+            </connections>
+            <point key="canvasLocation" x="182.60869565217394" y="117.1875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icSettingsAboutUs" width="30" height="30"/>
+        <image name="icSettingsArrow" width="7" height="12"/>
+        <namedColor name="cancelBorder">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="topBar">
+            <color red="0.070588235294117646" green="0.078431372549019607" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

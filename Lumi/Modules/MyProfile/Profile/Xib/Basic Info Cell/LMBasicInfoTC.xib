@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LMBasicInfoTC" rowHeight="94" id="KGk-i7-Jjw" customClass="LMBasicInfoTC" customModule="Lumi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="E0B-1K-dK7">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="94"/>
+                        <color key="backgroundColor" name="eventBar"/>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" name="eventBar"/>
+                <constraints>
+                    <constraint firstItem="E0B-1K-dK7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9Nc-Jv-I7s"/>
+                    <constraint firstAttribute="bottom" secondItem="E0B-1K-dK7" secondAttribute="bottom" id="PL5-j2-YS0"/>
+                    <constraint firstItem="E0B-1K-dK7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WOj-bW-Mey"/>
+                    <constraint firstAttribute="trailing" secondItem="E0B-1K-dK7" secondAttribute="trailing" id="avo-KE-e1r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="prefrenceTableview" destination="E0B-1K-dK7" id="SgU-me-ByP"/>
+            </connections>
+            <point key="canvasLocation" x="42.028985507246382" y="34.821428571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="eventBar">
+            <color red="0.11764705882352941" green="0.13333333333333333" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

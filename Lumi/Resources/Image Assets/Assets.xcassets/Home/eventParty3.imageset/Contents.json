@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "317895e71b1c8e53e9450ab269608c04--track-music.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

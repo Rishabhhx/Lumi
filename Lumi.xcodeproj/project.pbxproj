@@ -1,0 +1,3414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3260408E1758143365A248A3 /* Pods_LumiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7A6E295271D8C55BC20376 /* Pods_LumiTests.framework */; };
+		48A0D9D0B6E4E82797F279D0 /* Pods_Lumi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B15B41036C6D8FCD86D322 /* Pods_Lumi.framework */; };
+		8411209F281BCD5B00D6F602 /* LMStatusBarCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411209E281BCD5B00D6F602 /* LMStatusBarCC.swift */; };
+		841496E4283A38A80026EE54 /* LMUserBioCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841496E2283A38A80026EE54 /* LMUserBioCC.swift */; };
+		841496E5283A38A80026EE54 /* LMUserBioCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841496E3283A38A80026EE54 /* LMUserBioCC.xib */; };
+		841551F52824DE1D003AC36B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841551F42824DE1D003AC36B /* Home.storyboard */; };
+		841551F82824FA11003AC36B /* LMEventsCardsCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841551F62824FA11003AC36B /* LMEventsCardsCC.swift */; };
+		841551F92824FA11003AC36B /* LMEventsCardsCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841551F72824FA11003AC36B /* LMEventsCardsCC.xib */; };
+		841551FB2825395E003AC36B /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841551FA2825395E003AC36B /* EventModel.swift */; };
+		8415DBBD27FCABBD00A4481F /* LMPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415DBBC27FCABBD00A4481F /* LMPageVC.swift */; };
+		841786852850672E00734FC4 /* LMLumidateSelectedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841786842850672E00734FC4 /* LMLumidateSelectedVM.swift */; };
+		841B027B2830032C00CB58AF /* lumiTutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 841B027A2830032C00CB58AF /* lumiTutorial.mp4 */; };
+		841B18D8280452800077D2C7 /* LMTermsAndConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B18D7280452800077D2C7 /* LMTermsAndConditionVC.swift */; };
+		841CD7A528696AD9001B3C1A /* ChatTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7A428696AD9001B3C1A /* ChatTableviewDelegate.swift */; };
+		841CD7AF286975B3001B3C1A /* LMMyProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7AE286975B3001B3C1A /* LMMyProfileVM.swift */; };
+		841CD7B628699C03001B3C1A /* LMMyGenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7B528699C03001B3C1A /* LMMyGenderVC.swift */; };
+		841CD7B82869C440001B3C1A /* LMMyHeightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7B72869C440001B3C1A /* LMMyHeightVC.swift */; };
+		841CD7BA2869D0DE001B3C1A /* LMMyJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7B92869D0DE001B3C1A /* LMMyJobVC.swift */; };
+		841CD7BC2869D560001B3C1A /* LMMyEducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7BB2869D560001B3C1A /* LMMyEducationVC.swift */; };
+		841CD7BE2869E400001B3C1A /* LMMyIntrestAgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CD7BD2869E400001B3C1A /* LMMyIntrestAgeVC.swift */; };
+		8420ECD92806E87100C21D8E /* LMProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420ECD82806E87100C21D8E /* LMProfileVC.swift */; };
+		8420ECDB28073BC700C21D8E /* LMUserHeightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420ECDA28073BC700C21D8E /* LMUserHeightVC.swift */; };
+		8420ECDD280747F600C21D8E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420ECDC280747F600C21D8E /* NetworkManager.swift */; };
+		8421C2F827FEBBD400F4A709 /* LMSignupOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421C2F727FEBBD400F4A709 /* LMSignupOTPVC.swift */; };
+		8421C2FA27FEC37F00F4A709 /* PhoneNumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421C2F927FEC37F00F4A709 /* PhoneNumberModel.swift */; };
+		8421C34727FED85D00F4A709 /* LMPhoneNoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421C34627FED85D00F4A709 /* LMPhoneNoVM.swift */; };
+		8427F815286D7E840058ED8F /* LMShowPhotosCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427F813286D7E840058ED8F /* LMShowPhotosCC.swift */; };
+		8427F816286D7E840058ED8F /* LMShowPhotosCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8427F814286D7E840058ED8F /* LMShowPhotosCC.xib */; };
+		8427F81B286D916A0058ED8F /* LMViewAsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427F819286D916A0058ED8F /* LMViewAsVC.swift */; };
+		8427F820286DA4460058ED8F /* LMViewImagesCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8427F81E286DA4460058ED8F /* LMViewImagesCC.xib */; };
+		8427F821286DA4460058ED8F /* LMViewImagesCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427F81F286DA4460058ED8F /* LMViewImagesCC.swift */; };
+		8427F825286DA4EA0058ED8F /* LMViewAsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427F823286DA4EA0058ED8F /* LMViewAsTC.swift */; };
+		8427F826286DA4EA0058ED8F /* LMViewAsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8427F824286DA4EA0058ED8F /* LMViewAsTC.xib */; };
+		842860862851CB70006548CA /* LMMyBookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842860852851CB70006548CA /* LMMyBookingsVC.swift */; };
+		8428608A2851CBE4006548CA /* LMMyBookingsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842860882851CBE4006548CA /* LMMyBookingsTC.swift */; };
+		8428608B2851CBE4006548CA /* LMMyBookingsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842860892851CBE4006548CA /* LMMyBookingsTC.xib */; };
+		8428608D2851DF96006548CA /* BookingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428608C2851DF96006548CA /* BookingsModel.swift */; };
+		8428608F28520AF6006548CA /* LMBookingDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428608E28520AF6006548CA /* LMBookingDetailsVC.swift */; };
+		842CDC7D281955810053AFDD /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDC7C281955810053AFDD /* WebServices.swift */; };
+		842CDC7F2819617B0053AFDD /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDC7E2819617B0053AFDD /* NetworkConstant.swift */; };
+		842CDC812819652F0053AFDD /* Webservices+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDC802819652F0053AFDD /* Webservices+EndPoints.swift */; };
+		842CDC8328196DD60053AFDD /* WebServices+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDC8228196DD60053AFDD /* WebServices+Login.swift */; };
+		842E66D42805EB4D006C0F75 /* LMUserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E66D32805EB4D006C0F75 /* LMUserProfileVC.swift */; };
+		842EA99627FDEED900A64988 /* CountryInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 842EA99527FDEED900A64988 /* CountryInfo.json */; };
+		842EA99827FDEF6100A64988 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EA99727FDEF6100A64988 /* CountryModel.swift */; };
+		84374D9A283DFDCF003753F0 /* LumiUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84374D99283DFDCF003753F0 /* LumiUserDetails.swift */; };
+		84374D9D283E1738003753F0 /* LMMatchSelectedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84374D9C283E1738003753F0 /* LMMatchSelectedVM.swift */; };
+		84374D9F283E5385003753F0 /* MaybeMatchesTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84374D9E283E5385003753F0 /* MaybeMatchesTableviewDelegate.swift */; };
+		84374DA2283E5B71003753F0 /* LMInviteEventPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84374DA1283E5B71003753F0 /* LMInviteEventPopupVC.swift */; };
+		84374DA6283E5C0C003753F0 /* LMInviteEventTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84374DA4283E5C0C003753F0 /* LMInviteEventTC.swift */; };
+		84374DA7283E5C0C003753F0 /* LMInviteEventTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84374DA5283E5C0C003753F0 /* LMInviteEventTC.xib */; };
+		84392828283CEC4F00A35EFC /* LMHomeMapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84392827283CEC4F00A35EFC /* LMHomeMapVM.swift */; };
+		8439282B283CF17B00A35EFC /* LMMaybeMatchesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439282A283CF17B00A35EFC /* LMMaybeMatchesVM.swift */; };
+		8440F9C728200A41001A4452 /* LMBioTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440F9C628200A41001A4452 /* LMBioTC.swift */; };
+		84412C022814568B00712472 /* CityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84412C012814568B00712472 /* CityInfo.swift */; };
+		84445836282D36B800A5D7AB /* LMPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84445835282D36B800A5D7AB /* LMPaymentVC.swift */; };
+		8447C74528642D410025CEAB /* CellImageTextStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C74428642D410025CEAB /* CellImageTextStruct.swift */; };
+		8447C75128643B5E0025CEAB /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447C74F28643B5E0025CEAB /* FooterCell.swift */; };
+		8447C75228643B5E0025CEAB /* FooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8447C75028643B5E0025CEAB /* FooterCell.xib */; };
+		844B0FCC286DAB510047876F /* ViewAsTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B0FCB286DAB510047876F /* ViewAsTableviewDelegate.swift */; };
+		844E7FAF2862D6C6008F7A18 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FAE2862D6C6008F7A18 /* MyProfile.storyboard */; };
+		844E7FB62862D80B008F7A18 /* LMMyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FB52862D80B008F7A18 /* LMMyProfileVC.swift */; };
+		844E7FBB2862D93C008F7A18 /* LMNamePhotosTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FB92862D93C008F7A18 /* LMNamePhotosTC.swift */; };
+		844E7FBC2862D93C008F7A18 /* LMNamePhotosTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FBA2862D93C008F7A18 /* LMNamePhotosTC.xib */; };
+		844E7FBF2862E55A008F7A18 /* LMBasicInfoTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FBD2862E55A008F7A18 /* LMBasicInfoTC.swift */; };
+		844E7FC02862E55A008F7A18 /* LMBasicInfoTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FBE2862E55A008F7A18 /* LMBasicInfoTC.xib */; };
+		844E7FC32863018E008F7A18 /* LMMyBioTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FC12863018E008F7A18 /* LMMyBioTC.swift */; };
+		844E7FC42863018E008F7A18 /* LMMyBioTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FC22863018E008F7A18 /* LMMyBioTC.xib */; };
+		844E7FC7286302FB008F7A18 /* LMMyBioQuesTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FC5286302FB008F7A18 /* LMMyBioQuesTC.swift */; };
+		844E7FC8286302FB008F7A18 /* LMMyBioQuesTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FC6286302FB008F7A18 /* LMMyBioQuesTC.xib */; };
+		844E7FCB286332AA008F7A18 /* LMWorkEducationTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E7FC9286332AA008F7A18 /* LMWorkEducationTC.swift */; };
+		844E7FCC286332AA008F7A18 /* LMWorkEducationTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E7FCA286332AA008F7A18 /* LMWorkEducationTC.xib */; };
+		845045BF281A8B7E001B0C99 /* LMOtpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845045BE281A8B7E001B0C99 /* LMOtpVM.swift */; };
+		8450F2DA2838D4A600C7A35A /* LumiUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F2D92838D4A600C7A35A /* LumiUserModel.swift */; };
+		8450F2DC2838DB1500C7A35A /* LMMatchSelectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F2DB2838DB1500C7A35A /* LMMatchSelectedVC.swift */; };
+		8450F2DE2838EB4C00C7A35A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450F2DD2838EB4C00C7A35A /* UIViewExtension.swift */; };
+		84530EAE2851C23C005114B7 /* LMLumidatesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84530EAD2851C23C005114B7 /* LMLumidatesVM.swift */; };
+		845A80BB2879A86600B85288 /* MyProfileTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A80BA2879A86600B85288 /* MyProfileTableviewDelegate.swift */; };
+		845A80BE2879AB2500B85288 /* UpdateBioTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A80BD2879AB2500B85288 /* UpdateBioTableview.swift */; };
+		845C8ED227FC73A300762E1C /* PreLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845C8ED127FC73A300762E1C /* PreLogin.storyboard */; };
+		845C9D192861D42800BA67B6 /* LMMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C9D182861D42800BA67B6 /* LMMessagesVC.swift */; };
+		845D474A280C2BA2004B84ED /* LMUserIntrestAgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4749280C2BA2004B84ED /* LMUserIntrestAgeVC.swift */; };
+		845D474E280C51C4004B84ED /* LMUserLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D474D280C51C4004B84ED /* LMUserLocationVC.swift */; };
+		8461FC7128603428008BC842 /* LMRevealEventsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8461FC7028603428008BC842 /* LMRevealEventsTC.xib */; };
+		8461FC7328604C0E008BC842 /* LMRevealEventsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461FC7228604C0E008BC842 /* LMRevealEventsVM.swift */; };
+		8461FC752860A96C008BC842 /* LMChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461FC742860A96C008BC842 /* LMChatVC.swift */; };
+		8461FC792860AA7F008BC842 /* LMChatTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461FC772860AA7F008BC842 /* LMChatTC.swift */; };
+		8461FC7A2860AA7F008BC842 /* LMChatTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8461FC782860AA7F008BC842 /* LMChatTC.xib */; };
+		8466B4552829715800E9507C /* LMCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B4542829715800E9507C /* LMCollectionHeader.swift */; };
+		8466B477282A3BB400E9507C /* CountryCodeTableViewDelegate+TableViewDataSource .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B476282A3BB400E9507C /* CountryCodeTableViewDelegate+TableViewDataSource .swift */; };
+		8466B479282A3CC600E9507C /* CountryCodeSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B478282A3CC600E9507C /* CountryCodeSearchBarDelegate.swift */; };
+		8466B480282A3EA300E9507C /* UserHomeTownTableViewDelegate+TableViewDataSource .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B47F282A3EA300E9507C /* UserHomeTownTableViewDelegate+TableViewDataSource .swift */; };
+		8466B483282A3F2C00E9507C /* UserHomeTownTextFieldDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B482282A3F2C00E9507C /* UserHomeTownTextFieldDelegate .swift */; };
+		8466B485282A414E00E9507C /* WelcomeScreenPageViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B484282A414E00E9507C /* WelcomeScreenPageViewDelegate.swift */; };
+		8466B488282A450200E9507C /* UserBioTableViewDelegate+TableViewDataSource .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B487282A450200E9507C /* UserBioTableViewDelegate+TableViewDataSource .swift */; };
+		8466B48A282A464200E9507C /* OtpTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B489282A464200E9507C /* OtpTextFieldDelegate.swift */; };
+		8466B48D282A46D200E9507C /* ProfileCollectionViewDelegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B48C282A46D200E9507C /* ProfileCollectionViewDelegate+DataSource.swift */; };
+		8466B48F282A472500E9507C /* ProfilePageViewDelegate+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B48E282A472500E9507C /* ProfilePageViewDelegate+Datasource.swift */; };
+		8466B492282A47A500E9507C /* UserBioTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B491282A47A500E9507C /* UserBioTextViewDelegate.swift */; };
+		8466B495282A480700E9507C /* UserHeightPickerviewDelegate+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B494282A480700E9507C /* UserHeightPickerviewDelegate+Datasource.swift */; };
+		8466B498282A81CE00E9507C /* WebServices+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B497282A81CE00E9507C /* WebServices+Home.swift */; };
+		8466B49E282AC26C00E9507C /* LMUserDrugsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B49D282AC26C00E9507C /* LMUserDrugsVM.swift */; };
+		8467B98D283F82C10057545D /* LMSendInvitePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B98C283F82C10057545D /* LMSendInvitePopupVC.swift */; };
+		8467B98F283FA21E0057545D /* LMReportPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B98E283FA21E0057545D /* LMReportPopupVC.swift */; };
+		84691A372802BE2400949542 /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84691A362802BE2400949542 /* UserProfileModel.swift */; };
+		846E6903284094230067274A /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E6902284094230067274A /* ReportModel.swift */; };
+		846E69052840A8680067274A /* LMReportFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E69042840A8680067274A /* LMReportFeedbackVC.swift */; };
+		846E69072840DB570067274A /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E69062840DB570067274A /* UIImageExtension.swift */; };
+		846FFB08285E041000CF27AC /* LMRevealEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FFB07285E041000CF27AC /* LMRevealEventsVC.swift */; };
+		846FFB0B285E048800CF27AC /* LMRevealEventsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FFB09285E048800CF27AC /* LMRevealEventsTC.swift */; };
+		847691542831112B00E0FAB6 /* WMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847691532831112A00E0FAB6 /* WMSegment.swift */; };
+		84791D56284F295E0016556E /* LMPrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84791D55284F295E0016556E /* LMPrivacyPolicyVC.swift */; };
+		84791D59284F3D560016556E /* SettingsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84791D58284F3D560016556E /* SettingsTableViewDelegate.swift */; };
+		847BF7D528239A5C0067D4E8 /* LMHomeMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BF7D428239A5C0067D4E8 /* LMHomeMapVC.swift */; };
+		847BF7D92824036D0067D4E8 /* LMRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BF7D82824036D0067D4E8 /* LMRouter.swift */; };
+		847C0AE52853344E00736637 /* LMInvitesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C0AE42853344E00736637 /* LMInvitesVC.swift */; };
+		847C0AE8285334B300736637 /* LMInvitesSentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C0AE6285334B200736637 /* LMInvitesSentVC.swift */; };
+		847C0AE9285334B300736637 /* LMInvitesReceivedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C0AE7285334B300736637 /* LMInvitesReceivedVC.swift */; };
+		847D4F63284DC58D00532C98 /* LMSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4F62284DC58D00532C98 /* LMSettingsVC.swift */; };
+		847D4F66284DC6C900532C98 /* LMSettingsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4F64284DC6C900532C98 /* LMSettingsTC.swift */; };
+		847D4F67284DC6C900532C98 /* LMSettingsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847D4F65284DC6C900532C98 /* LMSettingsTC.xib */; };
+		847D4F6F284DDCED00532C98 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4F6E284DDCED00532C98 /* SettingsModel.swift */; };
+		847D4F71284E1F2700532C98 /* LMAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4F70284E1F2700532C98 /* LMAboutUsVC.swift */; };
+		847D4F73284E250D00532C98 /* LMFaqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D4F72284E250D00532C98 /* LMFaqVC.swift */; };
+		847EE4D727FB20F300BA4771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4D627FB20F300BA4771 /* AppDelegate.swift */; };
+		847EE4D927FB20F300BA4771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4D827FB20F300BA4771 /* SceneDelegate.swift */; };
+		847EE4DB27FB20F300BA4771 /* LMWelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4DA27FB20F300BA4771 /* LMWelcomeScreenVC.swift */; };
+		847EE4E127FB20F300BA4771 /* Lumi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4DF27FB20F300BA4771 /* Lumi.xcdatamodeld */; };
+		847EE4E327FB20F500BA4771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EE4E227FB20F500BA4771 /* Assets.xcassets */; };
+		847EE4E627FB20F500BA4771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EE4E427FB20F500BA4771 /* LaunchScreen.storyboard */; };
+		847EE4F127FB20F500BA4771 /* LumiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4F027FB20F500BA4771 /* LumiTests.swift */; };
+		847EE4FB27FB20F500BA4771 /* LumiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4FA27FB20F500BA4771 /* LumiUITests.swift */; };
+		847EE4FD27FB20F500BA4771 /* LumiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EE4FC27FB20F500BA4771 /* LumiUITestsLaunchTests.swift */; };
+		847EFC8D2819001B0093C3EE /* LMStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EFC8C2819001B0093C3EE /* LMStoryboard.swift */; };
+		8481530A282C15D5009CDEA7 /* HomeMapCollectionViewDelegate+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84815309282C15D5009CDEA7 /* HomeMapCollectionViewDelegate+Datasource.swift */; };
+		8481530C282C16D7009CDEA7 /* HomeMapMapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481530B282C16D7009CDEA7 /* HomeMapMapDelegate.swift */; };
+		84815311282C1A50009CDEA7 /* DetailsPageControllerDelegate+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84815310282C1A50009CDEA7 /* DetailsPageControllerDelegate+Datasource.swift */; };
+		848164D52809325F001B76BE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848164D42809325F001B76BE /* Enums.swift */; };
+		848164D728093589001B76BE /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848164D628093589001B76BE /* CommonFunction.swift */; };
+		848164DE2809563B001B76BE /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848164DD2809563B001B76BE /* Color.xcassets */; };
+		848B54302849CF2100166E0A /* MyEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B542F2849CF2100166E0A /* MyEventModel.swift */; };
+		848F07E728755EB500ED5ADB /* LMPostPhotosCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F07E528755EB500ED5ADB /* LMPostPhotosCC.swift */; };
+		848F07E828755EB500ED5ADB /* LMPostPhotosCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F07E628755EB500ED5ADB /* LMPostPhotosCC.xib */; };
+		8493E82C2857232800CB48BC /* LMInvitesReceivedTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493E82A2857232800CB48BC /* LMInvitesReceivedTC.swift */; };
+		8493E82D2857232800CB48BC /* LMInvitesReceivedTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8493E82B2857232800CB48BC /* LMInvitesReceivedTC.xib */; };
+		84969B7B284774700083C578 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84969B7A284774700083C578 /* Menu.storyboard */; };
+		8496EAA22844964E00FAE2D0 /* LMPaymentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EAA12844964E00FAE2D0 /* LMPaymentVM.swift */; };
+		8496EAA52844D21B00FAE2D0 /* LMInviteEventPopupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496EAA42844D21B00FAE2D0 /* LMInviteEventPopupVM.swift */; };
+		849EE1EC28128CF00088F83F /* LMUserEducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1EB28128CF00088F83F /* LMUserEducationVC.swift */; };
+		849EE1EE281294F40088F83F /* LMUserReligionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1ED281294F40088F83F /* LMUserReligionVC.swift */; };
+		849EE1F02812A0890088F83F /* LMUserPoliticalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1EF2812A0890088F83F /* LMUserPoliticalVC.swift */; };
+		849EE1F22812B76E0088F83F /* LMUserCigarettesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1F12812B76E0088F83F /* LMUserCigarettesVC.swift */; };
+		849EE1F42812BABD0088F83F /* LMUserAlcoholVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1F32812BABD0088F83F /* LMUserAlcoholVC.swift */; };
+		849EE1F62812C3DA0088F83F /* LMUserMarijuanaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1F52812C3DA0088F83F /* LMUserMarijuanaVC.swift */; };
+		849EE1F82812D4A00088F83F /* LMUserDrugsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EE1F72812D4A00088F83F /* LMUserDrugsVC.swift */; };
+		84A18148283384B7003DFB32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A18147283384B7003DFB32 /* GoogleService-Info.plist */; };
+		84A1814A283388FD003DFB32 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A18149283388FD003DFB32 /* PaymentModel.swift */; };
+		84A1814C2833BDBA003DFB32 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1814B2833BDBA003DFB32 /* UIDevice.swift */; };
+		84A1EF832837B860008FF95D /* LMMatchesImagesCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1EF812837B860008FF95D /* LMMatchesImagesCC.swift */; };
+		84A1EF842837B860008FF95D /* LMMatchesImagesCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A1EF822837B860008FF95D /* LMMatchesImagesCC.xib */; };
+		84A400512843994600B39402 /* InviteEventTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A400502843994600B39402 /* InviteEventTableview.swift */; };
+		84A4005428439D4F00B39402 /* LMReportFeedbackVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4005328439D4F00B39402 /* LMReportFeedbackVM.swift */; };
+		84A91C662872AB07000B62D3 /* LMUpdateBioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A91C652872AB07000B62D3 /* LMUpdateBioVC.swift */; };
+		84A91C692872B0A3000B62D3 /* LMUpdateBioTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A91C672872B0A3000B62D3 /* LMUpdateBioTC.swift */; };
+		84A91C6A2872B0A3000B62D3 /* LMUpdateBioTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A91C682872B0A3000B62D3 /* LMUpdateBioTC.xib */; };
+		84AA5C5D284F54360002666C /* LumidatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5C5C284F54360002666C /* LumidatesModel.swift */; };
+		84AA5C5F284F54710002666C /* WebServices+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5C5E284F54710002666C /* WebServices+Menu.swift */; };
+		84AA5C61284F687C0002666C /* LMLumidatesImagesCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5C60284F687C0002666C /* LMLumidatesImagesCC.swift */; };
+		84AA5C63284F688A0002666C /* LMLumidatesImagesCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AA5C62284F688A0002666C /* LMLumidatesImagesCC.xib */; };
+		84AA5C69284F7E6A0002666C /* LumidateSelectedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5C67284F7E6A0002666C /* LumidateSelectedCollectionView.swift */; };
+		84AA5C6A284F7E6A0002666C /* LMLumidateSelectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA5C68284F7E6A0002666C /* LMLumidateSelectedVC.swift */; };
+		84AB03352834BE6E00425AF9 /* PaymentPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB03342834BE6E00425AF9 /* PaymentPickerViewDelegate.swift */; };
+		84AB03372834BE8F00425AF9 /* PaymentTableviewDelegateDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB03362834BE8F00425AF9 /* PaymentTableviewDelegateDatasource.swift */; };
+		84AB03392834BEE000425AF9 /* PaymentTextfieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB03382834BEE000425AF9 /* PaymentTextfieldDelegate.swift */; };
+		84AB033C2834FD3200425AF9 /* LMHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB033B2834FD3200425AF9 /* LMHomeVC.swift */; };
+		84AB667728464739006E5818 /* LMSubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB667628464739006E5818 /* LMSubscriptionVC.swift */; };
+		84AB667A28464859006E5818 /* SubscriptionPageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB667928464859006E5818 /* SubscriptionPageview.swift */; };
+		84B2351C283145590074DE6A /* LocationMapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2351B283145590074DE6A /* LocationMapDelegate.swift */; };
+		84B326CC28573D2100B4B904 /* LMInvitesSentTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B326CA28573D2100B4B904 /* LMInvitesSentTC.swift */; };
+		84B326CD28573D2100B4B904 /* LMInvitesSentTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B326CB28573D2100B4B904 /* LMInvitesSentTC.xib */; };
+		84B326D3285740BB00B4B904 /* LMInvitesSentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B326D2285740BB00B4B904 /* LMInvitesSentVM.swift */; };
+		84B326D5285756FA00B4B904 /* LMInvitesReceivedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B326D4285756FA00B4B904 /* LMInvitesReceivedVM.swift */; };
+		84B3C3F72865C66C004DD1F7 /* LMMyPhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3C3F62865C66C004DD1F7 /* LMMyPhotosVC.swift */; };
+		84B3C3FA2865C895004DD1F7 /* LMMyPhotosCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3C3F82865C895004DD1F7 /* LMMyPhotosCC.swift */; };
+		84B3C3FB2865C895004DD1F7 /* LMMyPhotosCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B3C3F92865C895004DD1F7 /* LMMyPhotosCC.xib */; };
+		84B3C3FD2865E1CB004DD1F7 /* LMMyNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3C3FC2865E1CB004DD1F7 /* LMMyNameVC.swift */; };
+		84B4890F281D7B9400C89362 /* LMUserBioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4890E281D7B9400C89362 /* LMUserBioVC.swift */; };
+		84B764342817C8E900420601 /* LMCreateAccountPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B764332817C8E900420601 /* LMCreateAccountPopupVC.swift */; };
+		84B764362817C90700420601 /* LMCreateNewAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B764352817C90700420601 /* LMCreateNewAccountVC.swift */; };
+		84B764382817F92000420601 /* LMBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B764372817F92000420601 /* LMBaseVC.swift */; };
+		84B7643B28180F7600420601 /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7643A28180F7600420601 /* ColorEnum.swift */; };
+		84B7643D28180F9500420601 /* ImageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7643C28180F9500420601 /* ImageEnum.swift */; };
+		84B801CB283B4E51008CB34B /* MatchSelectedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B801CA283B4E51008CB34B /* MatchSelectedCollectionView.swift */; };
+		84BBD47027FD58C50002D0E8 /* LMContinueWithPhoneNoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD46F27FD58C50002D0E8 /* LMContinueWithPhoneNoVC.swift */; };
+		84BBD47527FD7CF30002D0E8 /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD47427FD7CF30002D0E8 /* StringConstant.swift */; };
+		84BBD47927FDBF400002D0E8 /* LMCountryCodeSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD47827FDBF400002D0E8 /* LMCountryCodeSelectVC.swift */; };
+		84BBD47B27FDCBE20002D0E8 /* LMCountryCodeTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD47A27FDCBE20002D0E8 /* LMCountryCodeTC.swift */; };
+		84C0506528118FFC0087E4E4 /* LMUserHomeTownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0506428118FFC0087E4E4 /* LMUserHomeTownVC.swift */; };
+		84C05067281190060087E4E4 /* LMUserJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C05066281190060087E4E4 /* LMUserJobVC.swift */; };
+		84C2C38328487C490039B365 /* LMMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C38228487C490039B365 /* LMMenuVC.swift */; };
+		84C2C3882848ACC60039B365 /* LMLumidatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C3872848ACC60039B365 /* LMLumidatesVC.swift */; };
+		84C2C38D2848AF910039B365 /* LMLumidatesTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C38B2848AF910039B365 /* LMLumidatesTC.swift */; };
+		84C2C38E2848AF910039B365 /* LMLumidatesTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C2C38C2848AF910039B365 /* LMLumidatesTC.xib */; };
+		84C2C3912848C52E0039B365 /* LumidatesTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2C3902848C52E0039B365 /* LumidatesTableviewDelegate.swift */; };
+		84C5D7FD285AFFCA00C90761 /* InviteSentTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D7FC285AFFCA00C90761 /* InviteSentTableviewDelegate.swift */; };
+		84C5D805285B020F00C90761 /* InviteRequiredTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D804285B020F00C90761 /* InviteRequiredTableviewDelegate.swift */; };
+		84C5D80E285B15AC00C90761 /* BookingTableviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D80D285B15AC00C90761 /* BookingTableviewDelegate.swift */; };
+		84C5D811285B165A00C90761 /* LMMyBookingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5D810285B165A00C90761 /* LMMyBookingsVM.swift */; };
+		84CC986228A0F851001015C7 /* ShareToInsta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC986128A0F851001015C7 /* ShareToInsta.swift */; };
+		84CC986528A0F8A0001015C7 /* InstagramHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC986428A0F8A0001015C7 /* InstagramHandler.swift */; };
+		84DE4027286B29980046331F /* LMUpdateProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE4026286B29980046331F /* LMUpdateProfileVM.swift */; };
+		84DEB75128323ECB008A9BE3 /* LMSavedCardsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEB74F28323ECB008A9BE3 /* LMSavedCardsTC.swift */; };
+		84DEB75228323ECB008A9BE3 /* LMSavedCardsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DEB75028323ECB008A9BE3 /* LMSavedCardsTC.xib */; };
+		84DEB7552832A96A008A9BE3 /* PhoneTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEB7542832A96A008A9BE3 /* PhoneTextFieldDelegate.swift */; };
+		84DEED15283621EE00762A71 /* HomePageviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEED14283621EE00762A71 /* HomePageviewDelegate.swift */; };
+		84DEED1C283628F800762A71 /* LMMaybeMatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEED1B283628F800762A71 /* LMMaybeMatchesVC.swift */; };
+		84DEED1F2836343300762A71 /* LMMaybeMatchesTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DEED1D2836343300762A71 /* LMMaybeMatchesTC.swift */; };
+		84DEED202836343300762A71 /* LMMaybeMatchesTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DEED1E2836343300762A71 /* LMMaybeMatchesTC.xib */; };
+		84E2042A286F0A5C00AF5100 /* LMRecoveryMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E20429286F0A5C00AF5100 /* LMRecoveryMailVC.swift */; };
+		84E2042C286F131D00AF5100 /* RecoveryMaiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2042B286F131D00AF5100 /* RecoveryMaiModel.swift */; };
+		84EA229D284733CA00736479 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA229C284733CA00736479 /* SubscriptionModel.swift */; };
+		84EA22A02847370200736479 /* LMSubscriptionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA229F2847370200736479 /* LMSubscriptionVM.swift */; };
+		84EA22A32847379800736479 /* WebServices+Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA22A22847379800736479 /* WebServices+Matches.swift */; };
+		84F0F1C32808116900A694BA /* LMUserIntrestedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0F1C22808116900A694BA /* LMUserIntrestedVC.swift */; };
+		84F0F1C628085E8D00A694BA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0F1C528085E8D00A694BA /* SwiftyJSON.swift */; };
+		84F12DBD28461E5100A7BD50 /* LMSubscriptionPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F12DBC28461E5100A7BD50 /* LMSubscriptionPageVC.swift */; };
+		84F1BCB5286AC150000AD959 /* LMIntrestedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCB4286AC150000AD959 /* LMIntrestedInVC.swift */; };
+		84F1BCB7286ACB26000AD959 /* LMMyReligiousBeliefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCB6286ACB26000AD959 /* LMMyReligiousBeliefVC.swift */; };
+		84F1BCB9286ADE37000AD959 /* LMMyPoloticalLearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCB8286ADE37000AD959 /* LMMyPoloticalLearningVC.swift */; };
+		84F1BCBB286AE4DA000AD959 /* LMMyCigaretteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCBA286AE4DA000AD959 /* LMMyCigaretteVC.swift */; };
+		84F1BCBD286AEA26000AD959 /* LMMyAlcoholVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCBC286AEA26000AD959 /* LMMyAlcoholVC.swift */; };
+		84F1BCBF286AEA40000AD959 /* LMMyMarijuanaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCBE286AEA40000AD959 /* LMMyMarijuanaVC.swift */; };
+		84F1BCC1286AEA5D000AD959 /* LMMyDrugsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BCC0286AEA5D000AD959 /* LMMyDrugsVC.swift */; };
+		84F21727286345AC000C4547 /* LMPreferenceTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F21725286345AC000C4547 /* LMPreferenceTC.swift */; };
+		84F21728286345AC000C4547 /* LMPreferenceTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F21726286345AC000C4547 /* LMPreferenceTC.xib */; };
+		84F2172B286346E7000C4547 /* LMMyProfileCellTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F21729286346E7000C4547 /* LMMyProfileCellTC.swift */; };
+		84F2172C286346E7000C4547 /* LMMyProfileCellTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F2172A286346E7000C4547 /* LMMyProfileCellTC.xib */; };
+		84FFF52D282B7F3900DD5C76 /* LMEventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFF52C282B7F3900DD5C76 /* LMEventDetailsVC.swift */; };
+		84FFF534282BBF9D00DD5C76 /* LMEventsImageCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFF532282BBF9D00DD5C76 /* LMEventsImageCC.swift */; };
+		84FFF535282BBF9D00DD5C76 /* LMEventsImageCC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FFF533282BBF9D00DD5C76 /* LMEventsImageCC.xib */; };
+		84FFF537282BD4A700DD5C76 /* LMEventsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFF536282BD4A700DD5C76 /* LMEventsPageVC.swift */; };
+		EE39834ABCFC2EC0E022C036 /* Pods_Lumi_LumiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5976199DFD5A0490F9ECCA67 /* Pods_Lumi_LumiUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847EE4ED27FB20F500BA4771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847EE4CB27FB20F300BA4771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847EE4D227FB20F300BA4771;
+			remoteInfo = Lumi;
+		};
+		847EE4F727FB20F500BA4771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847EE4CB27FB20F300BA4771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847EE4D227FB20F300BA4771;
+			remoteInfo = Lumi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029BB656B9948AF6DDFD054F /* Pods-Lumi-LumiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lumi-LumiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lumi-LumiUITests/Pods-Lumi-LumiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD5C94B3C9E15BEB35E149B /* Pods-Lumi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lumi.release.xcconfig"; path = "Target Support Files/Pods-Lumi/Pods-Lumi.release.xcconfig"; sourceTree = "<group>"; };
+		5976199DFD5A0490F9ECCA67 /* Pods_Lumi_LumiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lumi_LumiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B15B41036C6D8FCD86D322 /* Pods_Lumi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lumi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8411209E281BCD5B00D6F602 /* LMStatusBarCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMStatusBarCC.swift; sourceTree = "<group>"; };
+		841496E2283A38A80026EE54 /* LMUserBioCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserBioCC.swift; sourceTree = "<group>"; };
+		841496E3283A38A80026EE54 /* LMUserBioCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMUserBioCC.xib; sourceTree = "<group>"; };
+		841551F42824DE1D003AC36B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		841551F62824FA11003AC36B /* LMEventsCardsCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMEventsCardsCC.swift; sourceTree = "<group>"; };
+		841551F72824FA11003AC36B /* LMEventsCardsCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMEventsCardsCC.xib; sourceTree = "<group>"; };
+		841551FA2825395E003AC36B /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		8415DBBC27FCABBD00A4481F /* LMPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPageVC.swift; sourceTree = "<group>"; };
+		841786842850672E00734FC4 /* LMLumidateSelectedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLumidateSelectedVM.swift; sourceTree = "<group>"; };
+		841B027A2830032C00CB58AF /* lumiTutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lumiTutorial.mp4; sourceTree = "<group>"; };
+		841B18D7280452800077D2C7 /* LMTermsAndConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTermsAndConditionVC.swift; sourceTree = "<group>"; };
+		841CD7A428696AD9001B3C1A /* ChatTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableviewDelegate.swift; sourceTree = "<group>"; };
+		841CD7AE286975B3001B3C1A /* LMMyProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyProfileVM.swift; sourceTree = "<group>"; };
+		841CD7B528699C03001B3C1A /* LMMyGenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyGenderVC.swift; sourceTree = "<group>"; };
+		841CD7B72869C440001B3C1A /* LMMyHeightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyHeightVC.swift; sourceTree = "<group>"; };
+		841CD7B92869D0DE001B3C1A /* LMMyJobVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyJobVC.swift; sourceTree = "<group>"; };
+		841CD7BB2869D560001B3C1A /* LMMyEducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyEducationVC.swift; sourceTree = "<group>"; };
+		841CD7BD2869E400001B3C1A /* LMMyIntrestAgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyIntrestAgeVC.swift; sourceTree = "<group>"; };
+		8420ECD82806E87100C21D8E /* LMProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMProfileVC.swift; sourceTree = "<group>"; };
+		8420ECDA28073BC700C21D8E /* LMUserHeightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserHeightVC.swift; sourceTree = "<group>"; };
+		8420ECDC280747F600C21D8E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8421C2F727FEBBD400F4A709 /* LMSignupOTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSignupOTPVC.swift; sourceTree = "<group>"; };
+		8421C2F927FEC37F00F4A709 /* PhoneNumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberModel.swift; sourceTree = "<group>"; };
+		8421C34627FED85D00F4A709 /* LMPhoneNoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPhoneNoVM.swift; sourceTree = "<group>"; };
+		8427F813286D7E840058ED8F /* LMShowPhotosCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMShowPhotosCC.swift; sourceTree = "<group>"; };
+		8427F814286D7E840058ED8F /* LMShowPhotosCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMShowPhotosCC.xib; sourceTree = "<group>"; };
+		8427F819286D916A0058ED8F /* LMViewAsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMViewAsVC.swift; sourceTree = "<group>"; };
+		8427F81E286DA4460058ED8F /* LMViewImagesCC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMViewImagesCC.xib; sourceTree = "<group>"; };
+		8427F81F286DA4460058ED8F /* LMViewImagesCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMViewImagesCC.swift; sourceTree = "<group>"; };
+		8427F823286DA4EA0058ED8F /* LMViewAsTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMViewAsTC.swift; sourceTree = "<group>"; };
+		8427F824286DA4EA0058ED8F /* LMViewAsTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMViewAsTC.xib; sourceTree = "<group>"; };
+		842860852851CB70006548CA /* LMMyBookingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyBookingsVC.swift; sourceTree = "<group>"; };
+		842860882851CBE4006548CA /* LMMyBookingsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyBookingsTC.swift; sourceTree = "<group>"; };
+		842860892851CBE4006548CA /* LMMyBookingsTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMyBookingsTC.xib; sourceTree = "<group>"; };
+		8428608C2851DF96006548CA /* BookingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsModel.swift; sourceTree = "<group>"; };
+		8428608E28520AF6006548CA /* LMBookingDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBookingDetailsVC.swift; sourceTree = "<group>"; };
+		842CDC7C281955810053AFDD /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		842CDC7E2819617B0053AFDD /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		842CDC802819652F0053AFDD /* Webservices+EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Webservices+EndPoints.swift"; sourceTree = "<group>"; };
+		842CDC8228196DD60053AFDD /* WebServices+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebServices+Login.swift"; sourceTree = "<group>"; };
+		842E66D32805EB4D006C0F75 /* LMUserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserProfileVC.swift; sourceTree = "<group>"; };
+		842EA99527FDEED900A64988 /* CountryInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryInfo.json; sourceTree = "<group>"; };
+		842EA99727FDEF6100A64988 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		84374D99283DFDCF003753F0 /* LumiUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiUserDetails.swift; sourceTree = "<group>"; };
+		84374D9C283E1738003753F0 /* LMMatchSelectedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMatchSelectedVM.swift; sourceTree = "<group>"; };
+		84374D9E283E5385003753F0 /* MaybeMatchesTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaybeMatchesTableviewDelegate.swift; sourceTree = "<group>"; };
+		84374DA1283E5B71003753F0 /* LMInviteEventPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInviteEventPopupVC.swift; sourceTree = "<group>"; };
+		84374DA4283E5C0C003753F0 /* LMInviteEventTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInviteEventTC.swift; sourceTree = "<group>"; };
+		84374DA5283E5C0C003753F0 /* LMInviteEventTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMInviteEventTC.xib; sourceTree = "<group>"; };
+		84392827283CEC4F00A35EFC /* LMHomeMapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMHomeMapVM.swift; sourceTree = "<group>"; };
+		8439282A283CF17B00A35EFC /* LMMaybeMatchesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMaybeMatchesVM.swift; sourceTree = "<group>"; };
+		8440F9C628200A41001A4452 /* LMBioTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBioTC.swift; sourceTree = "<group>"; };
+		84412C012814568B00712472 /* CityInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInfo.swift; sourceTree = "<group>"; };
+		84445835282D36B800A5D7AB /* LMPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPaymentVC.swift; sourceTree = "<group>"; };
+		8447C74428642D410025CEAB /* CellImageTextStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellImageTextStruct.swift; sourceTree = "<group>"; };
+		8447C74F28643B5E0025CEAB /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		8447C75028643B5E0025CEAB /* FooterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterCell.xib; sourceTree = "<group>"; };
+		844B0FCB286DAB510047876F /* ViewAsTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsTableviewDelegate.swift; sourceTree = "<group>"; };
+		844E7FAE2862D6C6008F7A18 /* MyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		844E7FB52862D80B008F7A18 /* LMMyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyProfileVC.swift; sourceTree = "<group>"; };
+		844E7FB92862D93C008F7A18 /* LMNamePhotosTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMNamePhotosTC.swift; sourceTree = "<group>"; };
+		844E7FBA2862D93C008F7A18 /* LMNamePhotosTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMNamePhotosTC.xib; sourceTree = "<group>"; };
+		844E7FBD2862E55A008F7A18 /* LMBasicInfoTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBasicInfoTC.swift; sourceTree = "<group>"; };
+		844E7FBE2862E55A008F7A18 /* LMBasicInfoTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMBasicInfoTC.xib; sourceTree = "<group>"; };
+		844E7FC12863018E008F7A18 /* LMMyBioTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyBioTC.swift; sourceTree = "<group>"; };
+		844E7FC22863018E008F7A18 /* LMMyBioTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMyBioTC.xib; sourceTree = "<group>"; };
+		844E7FC5286302FB008F7A18 /* LMMyBioQuesTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyBioQuesTC.swift; sourceTree = "<group>"; };
+		844E7FC6286302FB008F7A18 /* LMMyBioQuesTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMyBioQuesTC.xib; sourceTree = "<group>"; };
+		844E7FC9286332AA008F7A18 /* LMWorkEducationTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWorkEducationTC.swift; sourceTree = "<group>"; };
+		844E7FCA286332AA008F7A18 /* LMWorkEducationTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMWorkEducationTC.xib; sourceTree = "<group>"; };
+		845045BE281A8B7E001B0C99 /* LMOtpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMOtpVM.swift; sourceTree = "<group>"; };
+		8450F2D92838D4A600C7A35A /* LumiUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiUserModel.swift; sourceTree = "<group>"; };
+		8450F2DB2838DB1500C7A35A /* LMMatchSelectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMatchSelectedVC.swift; sourceTree = "<group>"; };
+		8450F2DD2838EB4C00C7A35A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		84530EAD2851C23C005114B7 /* LMLumidatesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLumidatesVM.swift; sourceTree = "<group>"; };
+		845A80BA2879A86600B85288 /* MyProfileTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileTableviewDelegate.swift; sourceTree = "<group>"; };
+		845A80BD2879AB2500B85288 /* UpdateBioTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBioTableview.swift; sourceTree = "<group>"; };
+		845C8ED127FC73A300762E1C /* PreLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PreLogin.storyboard; sourceTree = "<group>"; };
+		845C9D182861D42800BA67B6 /* LMMessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMessagesVC.swift; sourceTree = "<group>"; };
+		845D4749280C2BA2004B84ED /* LMUserIntrestAgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserIntrestAgeVC.swift; sourceTree = "<group>"; };
+		845D474D280C51C4004B84ED /* LMUserLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserLocationVC.swift; sourceTree = "<group>"; };
+		8461FC7028603428008BC842 /* LMRevealEventsTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMRevealEventsTC.xib; sourceTree = "<group>"; };
+		8461FC7228604C0E008BC842 /* LMRevealEventsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRevealEventsVM.swift; sourceTree = "<group>"; };
+		8461FC742860A96C008BC842 /* LMChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMChatVC.swift; sourceTree = "<group>"; };
+		8461FC772860AA7F008BC842 /* LMChatTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMChatTC.swift; sourceTree = "<group>"; };
+		8461FC782860AA7F008BC842 /* LMChatTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMChatTC.xib; sourceTree = "<group>"; };
+		8466B4542829715800E9507C /* LMCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMCollectionHeader.swift; sourceTree = "<group>"; };
+		8466B476282A3BB400E9507C /* CountryCodeTableViewDelegate+TableViewDataSource .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountryCodeTableViewDelegate+TableViewDataSource .swift"; sourceTree = "<group>"; };
+		8466B478282A3CC600E9507C /* CountryCodeSearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeSearchBarDelegate.swift; sourceTree = "<group>"; };
+		8466B47F282A3EA300E9507C /* UserHomeTownTableViewDelegate+TableViewDataSource .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserHomeTownTableViewDelegate+TableViewDataSource .swift"; sourceTree = "<group>"; };
+		8466B482282A3F2C00E9507C /* UserHomeTownTextFieldDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserHomeTownTextFieldDelegate .swift"; sourceTree = "<group>"; };
+		8466B484282A414E00E9507C /* WelcomeScreenPageViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenPageViewDelegate.swift; sourceTree = "<group>"; };
+		8466B487282A450200E9507C /* UserBioTableViewDelegate+TableViewDataSource .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserBioTableViewDelegate+TableViewDataSource .swift"; sourceTree = "<group>"; };
+		8466B489282A464200E9507C /* OtpTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpTextFieldDelegate.swift; sourceTree = "<group>"; };
+		8466B48C282A46D200E9507C /* ProfileCollectionViewDelegate+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileCollectionViewDelegate+DataSource.swift"; sourceTree = "<group>"; };
+		8466B48E282A472500E9507C /* ProfilePageViewDelegate+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfilePageViewDelegate+Datasource.swift"; sourceTree = "<group>"; };
+		8466B491282A47A500E9507C /* UserBioTextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBioTextViewDelegate.swift; sourceTree = "<group>"; };
+		8466B494282A480700E9507C /* UserHeightPickerviewDelegate+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserHeightPickerviewDelegate+Datasource.swift"; sourceTree = "<group>"; };
+		8466B497282A81CE00E9507C /* WebServices+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebServices+Home.swift"; sourceTree = "<group>"; };
+		8466B49D282AC26C00E9507C /* LMUserDrugsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserDrugsVM.swift; sourceTree = "<group>"; };
+		8467B98C283F82C10057545D /* LMSendInvitePopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSendInvitePopupVC.swift; sourceTree = "<group>"; };
+		8467B98E283FA21E0057545D /* LMReportPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMReportPopupVC.swift; sourceTree = "<group>"; };
+		84691A362802BE2400949542 /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		846E6902284094230067274A /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		846E69042840A8680067274A /* LMReportFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMReportFeedbackVC.swift; sourceTree = "<group>"; };
+		846E69062840DB570067274A /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		846FFB07285E041000CF27AC /* LMRevealEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRevealEventsVC.swift; sourceTree = "<group>"; };
+		846FFB09285E048800CF27AC /* LMRevealEventsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRevealEventsTC.swift; sourceTree = "<group>"; };
+		847691532831112A00E0FAB6 /* WMSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMSegment.swift; sourceTree = "<group>"; };
+		84791D55284F295E0016556E /* LMPrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		84791D58284F3D560016556E /* SettingsTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewDelegate.swift; sourceTree = "<group>"; };
+		847BF7D428239A5C0067D4E8 /* LMHomeMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMHomeMapVC.swift; sourceTree = "<group>"; };
+		847BF7D82824036D0067D4E8 /* LMRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRouter.swift; sourceTree = "<group>"; };
+		847C0AE42853344E00736637 /* LMInvitesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInvitesVC.swift; sourceTree = "<group>"; };
+		847C0AE6285334B200736637 /* LMInvitesSentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMInvitesSentVC.swift; sourceTree = "<group>"; };
+		847C0AE7285334B300736637 /* LMInvitesReceivedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMInvitesReceivedVC.swift; sourceTree = "<group>"; };
+		847D4F62284DC58D00532C98 /* LMSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSettingsVC.swift; sourceTree = "<group>"; };
+		847D4F64284DC6C900532C98 /* LMSettingsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSettingsTC.swift; sourceTree = "<group>"; };
+		847D4F65284DC6C900532C98 /* LMSettingsTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMSettingsTC.xib; sourceTree = "<group>"; };
+		847D4F6E284DDCED00532C98 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		847D4F70284E1F2700532C98 /* LMAboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMAboutUsVC.swift; sourceTree = "<group>"; };
+		847D4F72284E250D00532C98 /* LMFaqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMFaqVC.swift; sourceTree = "<group>"; };
+		847EE4D327FB20F300BA4771 /* Lumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EE4D627FB20F300BA4771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847EE4D827FB20F300BA4771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847EE4DA27FB20F300BA4771 /* LMWelcomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWelcomeScreenVC.swift; sourceTree = "<group>"; };
+		847EE4E027FB20F300BA4771 /* Lumi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lumi.xcdatamodel; sourceTree = "<group>"; };
+		847EE4E227FB20F500BA4771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847EE4E527FB20F500BA4771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847EE4E727FB20F500BA4771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EE4EC27FB20F500BA4771 /* LumiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EE4F027FB20F500BA4771 /* LumiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiTests.swift; sourceTree = "<group>"; };
+		847EE4F627FB20F500BA4771 /* LumiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EE4FA27FB20F500BA4771 /* LumiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiUITests.swift; sourceTree = "<group>"; };
+		847EE4FC27FB20F500BA4771 /* LumiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		847EFC8C2819001B0093C3EE /* LMStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMStoryboard.swift; sourceTree = "<group>"; };
+		84815309282C15D5009CDEA7 /* HomeMapCollectionViewDelegate+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeMapCollectionViewDelegate+Datasource.swift"; sourceTree = "<group>"; };
+		8481530B282C16D7009CDEA7 /* HomeMapMapDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapMapDelegate.swift; sourceTree = "<group>"; };
+		84815310282C1A50009CDEA7 /* DetailsPageControllerDelegate+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsPageControllerDelegate+Datasource.swift"; sourceTree = "<group>"; };
+		848164D42809325F001B76BE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		848164D628093589001B76BE /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		848164DD2809563B001B76BE /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		848B542F2849CF2100166E0A /* MyEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventModel.swift; sourceTree = "<group>"; };
+		848F07E528755EB500ED5ADB /* LMPostPhotosCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMPostPhotosCC.swift; sourceTree = "<group>"; };
+		848F07E628755EB500ED5ADB /* LMPostPhotosCC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMPostPhotosCC.xib; sourceTree = "<group>"; };
+		8493E82A2857232800CB48BC /* LMInvitesReceivedTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMInvitesReceivedTC.swift; sourceTree = "<group>"; };
+		8493E82B2857232800CB48BC /* LMInvitesReceivedTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMInvitesReceivedTC.xib; sourceTree = "<group>"; };
+		84969B7A284774700083C578 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		8496EAA12844964E00FAE2D0 /* LMPaymentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPaymentVM.swift; sourceTree = "<group>"; };
+		8496EAA42844D21B00FAE2D0 /* LMInviteEventPopupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInviteEventPopupVM.swift; sourceTree = "<group>"; };
+		849EE1EB28128CF00088F83F /* LMUserEducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserEducationVC.swift; sourceTree = "<group>"; };
+		849EE1ED281294F40088F83F /* LMUserReligionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserReligionVC.swift; sourceTree = "<group>"; };
+		849EE1EF2812A0890088F83F /* LMUserPoliticalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserPoliticalVC.swift; sourceTree = "<group>"; };
+		849EE1F12812B76E0088F83F /* LMUserCigarettesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserCigarettesVC.swift; sourceTree = "<group>"; };
+		849EE1F32812BABD0088F83F /* LMUserAlcoholVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserAlcoholVC.swift; sourceTree = "<group>"; };
+		849EE1F52812C3DA0088F83F /* LMUserMarijuanaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserMarijuanaVC.swift; sourceTree = "<group>"; };
+		849EE1F72812D4A00088F83F /* LMUserDrugsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserDrugsVC.swift; sourceTree = "<group>"; };
+		84A18147283384B7003DFB32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84A18149283388FD003DFB32 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		84A1814B2833BDBA003DFB32 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		84A1EF812837B860008FF95D /* LMMatchesImagesCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMatchesImagesCC.swift; sourceTree = "<group>"; };
+		84A1EF822837B860008FF95D /* LMMatchesImagesCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMatchesImagesCC.xib; sourceTree = "<group>"; };
+		84A400502843994600B39402 /* InviteEventTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteEventTableview.swift; sourceTree = "<group>"; };
+		84A4005328439D4F00B39402 /* LMReportFeedbackVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMReportFeedbackVM.swift; sourceTree = "<group>"; };
+		84A91C652872AB07000B62D3 /* LMUpdateBioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUpdateBioVC.swift; sourceTree = "<group>"; };
+		84A91C672872B0A3000B62D3 /* LMUpdateBioTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUpdateBioTC.swift; sourceTree = "<group>"; };
+		84A91C682872B0A3000B62D3 /* LMUpdateBioTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMUpdateBioTC.xib; sourceTree = "<group>"; };
+		84AA5C5C284F54360002666C /* LumidatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumidatesModel.swift; sourceTree = "<group>"; };
+		84AA5C5E284F54710002666C /* WebServices+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebServices+Menu.swift"; sourceTree = "<group>"; };
+		84AA5C60284F687C0002666C /* LMLumidatesImagesCC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLumidatesImagesCC.swift; sourceTree = "<group>"; };
+		84AA5C62284F688A0002666C /* LMLumidatesImagesCC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLumidatesImagesCC.xib; sourceTree = "<group>"; };
+		84AA5C67284F7E6A0002666C /* LumidateSelectedCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LumidateSelectedCollectionView.swift; sourceTree = "<group>"; };
+		84AA5C68284F7E6A0002666C /* LMLumidateSelectedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLumidateSelectedVC.swift; sourceTree = "<group>"; };
+		84AB03342834BE6E00425AF9 /* PaymentPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPickerViewDelegate.swift; sourceTree = "<group>"; };
+		84AB03362834BE8F00425AF9 /* PaymentTableviewDelegateDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableviewDelegateDatasource.swift; sourceTree = "<group>"; };
+		84AB03382834BEE000425AF9 /* PaymentTextfieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTextfieldDelegate.swift; sourceTree = "<group>"; };
+		84AB033B2834FD3200425AF9 /* LMHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMHomeVC.swift; sourceTree = "<group>"; };
+		84AB667628464739006E5818 /* LMSubscriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMSubscriptionVC.swift; sourceTree = "<group>"; };
+		84AB667928464859006E5818 /* SubscriptionPageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPageview.swift; sourceTree = "<group>"; };
+		84B2351B283145590074DE6A /* LocationMapDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapDelegate.swift; sourceTree = "<group>"; };
+		84B326CA28573D2100B4B904 /* LMInvitesSentTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMInvitesSentTC.swift; sourceTree = "<group>"; };
+		84B326CB28573D2100B4B904 /* LMInvitesSentTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMInvitesSentTC.xib; sourceTree = "<group>"; };
+		84B326D2285740BB00B4B904 /* LMInvitesSentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInvitesSentVM.swift; sourceTree = "<group>"; };
+		84B326D4285756FA00B4B904 /* LMInvitesReceivedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMInvitesReceivedVM.swift; sourceTree = "<group>"; };
+		84B3C3F62865C66C004DD1F7 /* LMMyPhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyPhotosVC.swift; sourceTree = "<group>"; };
+		84B3C3F82865C895004DD1F7 /* LMMyPhotosCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyPhotosCC.swift; sourceTree = "<group>"; };
+		84B3C3F92865C895004DD1F7 /* LMMyPhotosCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMyPhotosCC.xib; sourceTree = "<group>"; };
+		84B3C3FC2865E1CB004DD1F7 /* LMMyNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyNameVC.swift; sourceTree = "<group>"; };
+		84B4890E281D7B9400C89362 /* LMUserBioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserBioVC.swift; sourceTree = "<group>"; };
+		84B764332817C8E900420601 /* LMCreateAccountPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMCreateAccountPopupVC.swift; sourceTree = "<group>"; };
+		84B764352817C90700420601 /* LMCreateNewAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMCreateNewAccountVC.swift; sourceTree = "<group>"; };
+		84B764372817F92000420601 /* LMBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBaseVC.swift; sourceTree = "<group>"; };
+		84B7643A28180F7600420601 /* ColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		84B7643C28180F9500420601 /* ImageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnum.swift; sourceTree = "<group>"; };
+		84B801CA283B4E51008CB34B /* MatchSelectedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSelectedCollectionView.swift; sourceTree = "<group>"; };
+		84BBD46F27FD58C50002D0E8 /* LMContinueWithPhoneNoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMContinueWithPhoneNoVC.swift; sourceTree = "<group>"; };
+		84BBD47427FD7CF30002D0E8 /* StringConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
+		84BBD47827FDBF400002D0E8 /* LMCountryCodeSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMCountryCodeSelectVC.swift; sourceTree = "<group>"; };
+		84BBD47A27FDCBE20002D0E8 /* LMCountryCodeTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMCountryCodeTC.swift; sourceTree = "<group>"; };
+		84C0506428118FFC0087E4E4 /* LMUserHomeTownVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMUserHomeTownVC.swift; sourceTree = "<group>"; };
+		84C05066281190060087E4E4 /* LMUserJobVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMUserJobVC.swift; sourceTree = "<group>"; };
+		84C2C38228487C490039B365 /* LMMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMenuVC.swift; sourceTree = "<group>"; };
+		84C2C3872848ACC60039B365 /* LMLumidatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLumidatesVC.swift; sourceTree = "<group>"; };
+		84C2C38B2848AF910039B365 /* LMLumidatesTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLumidatesTC.swift; sourceTree = "<group>"; };
+		84C2C38C2848AF910039B365 /* LMLumidatesTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLumidatesTC.xib; sourceTree = "<group>"; };
+		84C2C3902848C52E0039B365 /* LumidatesTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumidatesTableviewDelegate.swift; sourceTree = "<group>"; };
+		84C5D7FC285AFFCA00C90761 /* InviteSentTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteSentTableviewDelegate.swift; sourceTree = "<group>"; };
+		84C5D804285B020F00C90761 /* InviteRequiredTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteRequiredTableviewDelegate.swift; sourceTree = "<group>"; };
+		84C5D80D285B15AC00C90761 /* BookingTableviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableviewDelegate.swift; sourceTree = "<group>"; };
+		84C5D810285B165A00C90761 /* LMMyBookingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyBookingsVM.swift; sourceTree = "<group>"; };
+		84CC986128A0F851001015C7 /* ShareToInsta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareToInsta.swift; sourceTree = "<group>"; };
+		84CC986428A0F8A0001015C7 /* InstagramHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramHandler.swift; sourceTree = "<group>"; };
+		84DE4026286B29980046331F /* LMUpdateProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUpdateProfileVM.swift; sourceTree = "<group>"; };
+		84DEB74F28323ECB008A9BE3 /* LMSavedCardsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSavedCardsTC.swift; sourceTree = "<group>"; };
+		84DEB75028323ECB008A9BE3 /* LMSavedCardsTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMSavedCardsTC.xib; sourceTree = "<group>"; };
+		84DEB7542832A96A008A9BE3 /* PhoneTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTextFieldDelegate.swift; sourceTree = "<group>"; };
+		84DEED14283621EE00762A71 /* HomePageviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageviewDelegate.swift; sourceTree = "<group>"; };
+		84DEED1B283628F800762A71 /* LMMaybeMatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMaybeMatchesVC.swift; sourceTree = "<group>"; };
+		84DEED1D2836343300762A71 /* LMMaybeMatchesTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMaybeMatchesTC.swift; sourceTree = "<group>"; };
+		84DEED1E2836343300762A71 /* LMMaybeMatchesTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMaybeMatchesTC.xib; sourceTree = "<group>"; };
+		84E20429286F0A5C00AF5100 /* LMRecoveryMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMRecoveryMailVC.swift; sourceTree = "<group>"; };
+		84E2042B286F131D00AF5100 /* RecoveryMaiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryMaiModel.swift; sourceTree = "<group>"; };
+		84EA229C284733CA00736479 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		84EA229F2847370200736479 /* LMSubscriptionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSubscriptionVM.swift; sourceTree = "<group>"; };
+		84EA22A22847379800736479 /* WebServices+Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebServices+Matches.swift"; sourceTree = "<group>"; };
+		84F0F1C22808116900A694BA /* LMUserIntrestedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMUserIntrestedVC.swift; sourceTree = "<group>"; };
+		84F0F1C528085E8D00A694BA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		84F12DBC28461E5100A7BD50 /* LMSubscriptionPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSubscriptionPageVC.swift; sourceTree = "<group>"; };
+		84F1BCB4286AC150000AD959 /* LMIntrestedInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMIntrestedInVC.swift; sourceTree = "<group>"; };
+		84F1BCB6286ACB26000AD959 /* LMMyReligiousBeliefVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyReligiousBeliefVC.swift; sourceTree = "<group>"; };
+		84F1BCB8286ADE37000AD959 /* LMMyPoloticalLearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyPoloticalLearningVC.swift; sourceTree = "<group>"; };
+		84F1BCBA286AE4DA000AD959 /* LMMyCigaretteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyCigaretteVC.swift; sourceTree = "<group>"; };
+		84F1BCBC286AEA26000AD959 /* LMMyAlcoholVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMMyAlcoholVC.swift; sourceTree = "<group>"; };
+		84F1BCBE286AEA40000AD959 /* LMMyMarijuanaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMMyMarijuanaVC.swift; sourceTree = "<group>"; };
+		84F1BCC0286AEA5D000AD959 /* LMMyDrugsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMMyDrugsVC.swift; sourceTree = "<group>"; };
+		84F21725286345AC000C4547 /* LMPreferenceTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMPreferenceTC.swift; sourceTree = "<group>"; };
+		84F21726286345AC000C4547 /* LMPreferenceTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMPreferenceTC.xib; sourceTree = "<group>"; };
+		84F21729286346E7000C4547 /* LMMyProfileCellTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMMyProfileCellTC.swift; sourceTree = "<group>"; };
+		84F2172A286346E7000C4547 /* LMMyProfileCellTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMMyProfileCellTC.xib; sourceTree = "<group>"; };
+		84FFF52C282B7F3900DD5C76 /* LMEventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMEventDetailsVC.swift; sourceTree = "<group>"; };
+		84FFF532282BBF9D00DD5C76 /* LMEventsImageCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMEventsImageCC.swift; sourceTree = "<group>"; };
+		84FFF533282BBF9D00DD5C76 /* LMEventsImageCC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LMEventsImageCC.xib; sourceTree = "<group>"; };
+		84FFF536282BD4A700DD5C76 /* LMEventsPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMEventsPageVC.swift; sourceTree = "<group>"; };
+		90D33F71640F8D69549C1BA2 /* Pods-Lumi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lumi.debug.xcconfig"; path = "Target Support Files/Pods-Lumi/Pods-Lumi.debug.xcconfig"; sourceTree = "<group>"; };
+		A16E398BFD1678958DAC64C4 /* Pods-LumiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumiTests.debug.xcconfig"; path = "Target Support Files/Pods-LumiTests/Pods-LumiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B591AD7B2C43F0E98614BE6E /* Pods-Lumi-LumiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lumi-LumiUITests.release.xcconfig"; path = "Target Support Files/Pods-Lumi-LumiUITests/Pods-Lumi-LumiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE487FDB42A2E3CB0556F034 /* Pods-LumiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumiTests.release.xcconfig"; path = "Target Support Files/Pods-LumiTests/Pods-LumiTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC7A6E295271D8C55BC20376 /* Pods_LumiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LumiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847EE4D027FB20F300BA4771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A0D9D0B6E4E82797F279D0 /* Pods_Lumi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4E927FB20F500BA4771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3260408E1758143365A248A3 /* Pods_LumiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4F327FB20F500BA4771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE39834ABCFC2EC0E022C036 /* Pods_Lumi_LumiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841120A0281BCD6700D6F602 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8411209E281BCD5B00D6F602 /* LMStatusBarCC.swift */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841496E6283A6B0C0026EE54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8450F2D92838D4A600C7A35A /* LumiUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		841496E7283A6B1F0026EE54 /* Selected Match */ = {
+			isa = PBXGroup;
+			children = (
+				841496E9283A6B550026EE54 /* Xib */,
+				84374D9B283DFDDD003753F0 /* Model */,
+				846E690D284102D90067274A /* View Model */,
+				841496E8283A6B3C0026EE54 /* View Controler */,
+			);
+			path = "Selected Match";
+			sourceTree = "<group>";
+		};
+		841496E8283A6B3C0026EE54 /* View Controler */ = {
+			isa = PBXGroup;
+			children = (
+				8450F2DB2838DB1500C7A35A /* LMMatchSelectedVC.swift */,
+				84B801CC283B5EBA008CB34B /* Delegate+Datasource */,
+			);
+			path = "View Controler";
+			sourceTree = "<group>";
+		};
+		841496E9283A6B550026EE54 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				841496E2283A38A80026EE54 /* LMUserBioCC.swift */,
+				841496E3283A38A80026EE54 /* LMUserBioCC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841551FC2825574D003AC36B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841551FA2825395E003AC36B /* EventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		841551FD2825575C003AC36B /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				841551F72824FA11003AC36B /* LMEventsCardsCC.xib */,
+				841551F62824FA11003AC36B /* LMEventsCardsCC.swift */,
+				8466B4542829715800E9507C /* LMCollectionHeader.swift */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841B18D928045D960077D2C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842EA99727FDEF6100A64988 /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		841CD7A228696A59001B3C1A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8461FC772860AA7F008BC842 /* LMChatTC.swift */,
+				8461FC782860AA7F008BC842 /* LMChatTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841CD7A328696A65001B3C1A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8461FC742860A96C008BC842 /* LMChatVC.swift */,
+				841CD7A628696AFA001B3C1A /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		841CD7A628696AFA001B3C1A /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7A428696AD9001B3C1A /* ChatTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		841CD7A728696D78001B3C1A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7A928696EC1001B3C1A /* View Controller */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		841CD7A828696EB7001B3C1A /* Chat Screen */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7A328696A65001B3C1A /* View Controller */,
+				841CD7A228696A59001B3C1A /* Xib */,
+			);
+			path = "Chat Screen";
+			sourceTree = "<group>";
+		};
+		841CD7A928696EC1001B3C1A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845C9D182861D42800BA67B6 /* LMMessagesVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		841CD7AC28697567001B3C1A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B128698497001B3C1A /* Profile Cell */,
+				8447C749286434090025CEAB /* Photos Cell */,
+				8447C747286433ED0025CEAB /* Basic Info Cell */,
+				8447C748286433FF0025CEAB /* Bio Cell */,
+				8447C74A286434220025CEAB /* Work Cell */,
+				8447C746286433DE0025CEAB /* Prefrence Cell */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841CD7AD28697585001B3C1A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844E7FB52862D80B008F7A18 /* LMMyProfileVC.swift */,
+				845A80BC2879A88A00B85288 /* Delegate+Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		841CD7B0286983F8001B3C1A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7AE286975B3001B3C1A /* LMMyProfileVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		841CD7B128698497001B3C1A /* Profile Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84F21729286346E7000C4547 /* LMMyProfileCellTC.swift */,
+				84F2172A286346E7000C4547 /* LMMyProfileCellTC.xib */,
+			);
+			path = "Profile Cell";
+			sourceTree = "<group>";
+		};
+		841CD7B2286998FC001B3C1A /* My Photos */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B328699941001B3C1A /* Xib */,
+				841CD7B428699947001B3C1A /* View Controller */,
+			);
+			path = "My Photos";
+			sourceTree = "<group>";
+		};
+		841CD7B328699941001B3C1A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84B3C3F82865C895004DD1F7 /* LMMyPhotosCC.swift */,
+				84B3C3F92865C895004DD1F7 /* LMMyPhotosCC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		841CD7B428699947001B3C1A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84B3C3F62865C66C004DD1F7 /* LMMyPhotosVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8421C34827FEF81400F4A709 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				8466B458282A384F00E9507C /* Continue With Phone Number */,
+				8466B45B282A38F700E9507C /* Country Code */,
+				8466B45C282A391F00E9507C /* Signup OTP */,
+				8466B45D282A395400E9507C /* Create New Account */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		8427F817286D916A0058ED8F /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				844B0FCB286DAB510047876F /* ViewAsTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		8427F81C286D91910058ED8F /* View As */ = {
+			isa = PBXGroup;
+			children = (
+				844B0FCD286DC17F0047876F /* Xib */,
+				844B0FCE286DC18A0047876F /* View Controller */,
+			);
+			path = "View As";
+			sourceTree = "<group>";
+		};
+		8427F81D286DA4460058ED8F /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8427F81F286DA4460058ED8F /* LMViewImagesCC.swift */,
+				8427F81E286DA4460058ED8F /* LMViewImagesCC.xib */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		8427F822286DA4EA0058ED8F /* Tabel Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8427F823286DA4EA0058ED8F /* LMViewAsTC.swift */,
+				8427F824286DA4EA0058ED8F /* LMViewAsTC.xib */,
+			);
+			path = "Tabel Cell";
+			sourceTree = "<group>";
+		};
+		842860872851CBB3006548CA /* My Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D80C285B04EC00C90761 /* Xib */,
+				84C5D80B285B04E300C90761 /* Model */,
+				84C5D812285B17F800C90761 /* View Model */,
+				84C5D80A285B046E00C90761 /* View Controller */,
+			);
+			path = "My Bookings";
+			sourceTree = "<group>";
+		};
+		842E66CE2805801F006C0F75 /* Profile Setup */ = {
+			isa = PBXGroup;
+			children = (
+				8466B45E282A397C00E9507C /* Profile */,
+				8466B460282A39BF00E9507C /* User Bio */,
+				8466B461282A39C700E9507C /* User Height */,
+				8466B462282A39D700E9507C /* User Intrested */,
+				8466B463282A39EC00E9507C /* User Intrested Age */,
+				8466B464282A3A0200E9507C /* User Location */,
+				8466B465282A3A0D00E9507C /* User HomeTown */,
+				8466B466282A3A1A00E9507C /* User Job */,
+				8466B467282A3A2400E9507C /* User Education */,
+				8466B468282A3A3100E9507C /* User Religion */,
+				8466B469282A3A4000E9507C /* User Political */,
+				8466B46A282A3A5200E9507C /* User Cigarettes */,
+				8466B46B282A3A6400E9507C /* User Alcohol */,
+				8466B46C282A3A8C00E9507C /* User Marijuana */,
+				8466B46D282A3A9D00E9507C /* User Drugs */,
+			);
+			path = "Profile Setup";
+			sourceTree = "<group>";
+		};
+		84374D9B283DFDDD003753F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84374D99283DFDCF003753F0 /* LumiUserDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84374DA0283E53A1003753F0 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84374D9E283E5385003753F0 /* MaybeMatchesTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84374DA3283E5B7B003753F0 /* Popup Invite And Report */ = {
+			isa = PBXGroup;
+			children = (
+				846E6908284102730067274A /* Xib */,
+				846E69092841027B0067274A /* Model */,
+				84A4005528439E6C00B39402 /* View Model */,
+				846E690C284102BB0067274A /* View Controllers */,
+			);
+			path = "Popup Invite And Report";
+			sourceTree = "<group>";
+		};
+		84392829283CEF0100A35EFC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84392827283CEC4F00A35EFC /* LMHomeMapVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		8439282C283CF5B300A35EFC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8439282A283CF17B00A35EFC /* LMMaybeMatchesVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84445837282D36C500A5D7AB /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				84DEB753283252ED008A9BE3 /* Xib */,
+				84AB03332834BE4D00425AF9 /* Model */,
+				8496EAA32844965600FAE2D0 /* View Model */,
+				84445838282D36DF00A5D7AB /* View Controller */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		84445838282D36DF00A5D7AB /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84445835282D36B800A5D7AB /* LMPaymentVC.swift */,
+				84AB033A2834BF1000425AF9 /* Delegate+Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8447C746286433DE0025CEAB /* Prefrence Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84F21725286345AC000C4547 /* LMPreferenceTC.swift */,
+				84F21726286345AC000C4547 /* LMPreferenceTC.xib */,
+			);
+			path = "Prefrence Cell";
+			sourceTree = "<group>";
+		};
+		8447C747286433ED0025CEAB /* Basic Info Cell */ = {
+			isa = PBXGroup;
+			children = (
+				844E7FBD2862E55A008F7A18 /* LMBasicInfoTC.swift */,
+				844E7FBE2862E55A008F7A18 /* LMBasicInfoTC.xib */,
+			);
+			path = "Basic Info Cell";
+			sourceTree = "<group>";
+		};
+		8447C748286433FF0025CEAB /* Bio Cell */ = {
+			isa = PBXGroup;
+			children = (
+				844E7FC12863018E008F7A18 /* LMMyBioTC.swift */,
+				844E7FC22863018E008F7A18 /* LMMyBioTC.xib */,
+				8447C74F28643B5E0025CEAB /* FooterCell.swift */,
+				8447C75028643B5E0025CEAB /* FooterCell.xib */,
+				844E7FC5286302FB008F7A18 /* LMMyBioQuesTC.swift */,
+				844E7FC6286302FB008F7A18 /* LMMyBioQuesTC.xib */,
+			);
+			path = "Bio Cell";
+			sourceTree = "<group>";
+		};
+		8447C749286434090025CEAB /* Photos Cell */ = {
+			isa = PBXGroup;
+			children = (
+				844E7FB92862D93C008F7A18 /* LMNamePhotosTC.swift */,
+				8427F813286D7E840058ED8F /* LMShowPhotosCC.swift */,
+				8427F814286D7E840058ED8F /* LMShowPhotosCC.xib */,
+				844E7FBA2862D93C008F7A18 /* LMNamePhotosTC.xib */,
+			);
+			path = "Photos Cell";
+			sourceTree = "<group>";
+		};
+		8447C74A286434220025CEAB /* Work Cell */ = {
+			isa = PBXGroup;
+			children = (
+				844E7FC9286332AA008F7A18 /* LMWorkEducationTC.swift */,
+				844E7FCA286332AA008F7A18 /* LMWorkEducationTC.xib */,
+			);
+			path = "Work Cell";
+			sourceTree = "<group>";
+		};
+		8447C74B2864342C0025CEAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8447C74428642D410025CEAB /* CellImageTextStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8447C74C286434420025CEAB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7AC28697567001B3C1A /* Xib */,
+				8447C74B2864342C0025CEAB /* Model */,
+				841CD7B0286983F8001B3C1A /* View Model */,
+				841CD7AD28697585001B3C1A /* View Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		844B0FCD286DC17F0047876F /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8427F822286DA4EA0058ED8F /* Tabel Cell */,
+				8427F81D286DA4460058ED8F /* Collection Cell */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		844B0FCE286DC18A0047876F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8427F819286D916A0058ED8F /* LMViewAsVC.swift */,
+				8427F817286D916A0058ED8F /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		844E7FB22862D759008F7A18 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				8447C74C286434420025CEAB /* Profile */,
+				8427F81C286D91910058ED8F /* View As */,
+				84F1BCCF286B286A000AD959 /* Update Profile */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		84530EA62851BB3E005114B7 /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84AA5C62284F688A0002666C /* LMLumidatesImagesCC.xib */,
+				84AA5C60284F687C0002666C /* LMLumidatesImagesCC.swift */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		84530EA72851BB4A005114B7 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C38B2848AF910039B365 /* LMLumidatesTC.swift */,
+				84C2C38C2848AF910039B365 /* LMLumidatesTC.xib */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		84530EA82851BB60005114B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84AA5C5C284F54360002666C /* LumidatesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84530EA92851BB71005114B7 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				841786842850672E00734FC4 /* LMLumidateSelectedVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84530EAC2851C1ED005114B7 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84530EAD2851C23C005114B7 /* LMLumidatesVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		845686DB2837AEC900480DB3 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				846E690E284102FB0067274A /* Tabel Cell */,
+				846E690F284103070067274A /* Collection Cell */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		845686DC2837AEE800480DB3 /* View controller */ = {
+			isa = PBXGroup;
+			children = (
+				84DEED1B283628F800762A71 /* LMMaybeMatchesVC.swift */,
+				84374DA0283E53A1003753F0 /* Delegate + Datasource */,
+			);
+			path = "View controller";
+			sourceTree = "<group>";
+		};
+		845A80BC2879A88A00B85288 /* Delegate+Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				845A80BA2879A86600B85288 /* MyProfileTableviewDelegate.swift */,
+			);
+			path = "Delegate+Datasource";
+			sourceTree = "<group>";
+		};
+		845A80BF2879AB4000B85288 /* My Update Bio */ = {
+			isa = PBXGroup;
+			children = (
+				845A80C22879AB7800B85288 /* Xib */,
+				845A80C02879AB5000B85288 /* View Controller */,
+			);
+			path = "My Update Bio";
+			sourceTree = "<group>";
+		};
+		845A80C02879AB5000B85288 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84A91C652872AB07000B62D3 /* LMUpdateBioVC.swift */,
+				845A80C12879AB5B00B85288 /* Delegate+Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		845A80C12879AB5B00B85288 /* Delegate+Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				845A80BD2879AB2500B85288 /* UpdateBioTableview.swift */,
+			);
+			path = "Delegate+Datasource";
+			sourceTree = "<group>";
+		};
+		845A80C22879AB7800B85288 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84A91C672872B0A3000B62D3 /* LMUpdateBioTC.swift */,
+				84A91C682872B0A3000B62D3 /* LMUpdateBioTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		845A80C32879AB9C00B85288 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B2286998FC001B3C1A /* My Photos */,
+				84F1BCC2286B2778000AD959 /* My Name */,
+				84F1BCC3286B277E000AD959 /* My Gender */,
+				84F1BCC4286B2786000AD959 /* My Height */,
+				84F1BCC5286B278E000AD959 /* My Job */,
+				84F1BCC6286B2796000AD959 /* My Education */,
+				84F1BCC7286B27A1000AD959 /* My Intrested In */,
+				84F1BCC8286B27B9000AD959 /* My IntrestAge */,
+				84F1BCC9286B27C9000AD959 /* My Religious */,
+				84F1BCCA286B27D6000AD959 /* My Polotical */,
+				84F1BCCB286B27DE000AD959 /* My Cigarette */,
+				84F1BCCC286B27EE000AD959 /* My Alcohol */,
+				84F1BCCD286B27FF000AD959 /* My Marijuana  */,
+				84F1BCCE286B2813000AD959 /* My Drugs */,
+				845A80BF2879AB4000B85288 /* My Update Bio */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		845C8EC927FC2DEB00762E1C /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				845C8ECA27FC2E2400762E1C /* RestAPIController */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		845C8ECA27FC2E2400762E1C /* RestAPIController */ = {
+			isa = PBXGroup;
+			children = (
+				8420ECDC280747F600C21D8E /* NetworkManager.swift */,
+				842CDC802819652F0053AFDD /* Webservices+EndPoints.swift */,
+				8466B49A282A922500E9507C /* WebServices */,
+			);
+			path = RestAPIController;
+			sourceTree = "<group>";
+		};
+		845C8ECC27FC2E8300762E1C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				845C8ED127FC73A300762E1C /* PreLogin.storyboard */,
+				841551F42824DE1D003AC36B /* Home.storyboard */,
+				84969B7A284774700083C578 /* Menu.storyboard */,
+				844E7FAE2862D6C6008F7A18 /* MyProfile.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		845C8ECD27FC2F0600762E1C /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				845C8ECE27FC2F3100762E1C /* LMWalkthrough */,
+				8421C34827FEF81400F4A709 /* Sign Up */,
+				842E66CE2805801F006C0F75 /* Profile Setup */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		845C8ECE27FC2F3100762E1C /* LMWalkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				8466B456282A382200E9507C /* Welcome Screen */,
+			);
+			path = LMWalkthrough;
+			sourceTree = "<group>";
+		};
+		845D82F227FFF95600FE30FE /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				845045BE281A8B7E001B0C99 /* LMOtpVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		845D82F527FFFB9600FE30FE /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84BBD47A27FDCBE20002D0E8 /* LMCountryCodeTC.swift */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		8461FC762860A96F008BC842 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7A828696EB7001B3C1A /* Chat Screen */,
+				841CD7A728696D78001B3C1A /* Messages */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8466B456282A382200E9507C /* Welcome Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8466B475282A3B1D00E9507C /* View Controller */,
+			);
+			path = "Welcome Screen";
+			sourceTree = "<group>";
+		};
+		8466B457282A383500E9507C /* Terms And Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D803285B00D000C90761 /* View Controller */,
+			);
+			path = "Terms And Conditions";
+			sourceTree = "<group>";
+		};
+		8466B458282A384F00E9507C /* Continue With Phone Number */ = {
+			isa = PBXGroup;
+			children = (
+				8466B459282A386C00E9507C /* View Model */,
+				8466B45A282A388E00E9507C /* Model */,
+				8466B471282A3AFC00E9507C /* View Controller */,
+			);
+			path = "Continue With Phone Number";
+			sourceTree = "<group>";
+		};
+		8466B459282A386C00E9507C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8421C34627FED85D00F4A709 /* LMPhoneNoVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		8466B45A282A388E00E9507C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8421C2F927FEC37F00F4A709 /* PhoneNumberModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8466B45B282A38F700E9507C /* Country Code */ = {
+			isa = PBXGroup;
+			children = (
+				841B18D928045D960077D2C7 /* Model */,
+				845D82F527FFFB9600FE30FE /* Xib */,
+				8466B472282A3B0400E9507C /* View Controller */,
+			);
+			path = "Country Code";
+			sourceTree = "<group>";
+		};
+		8466B45C282A391F00E9507C /* Signup OTP */ = {
+			isa = PBXGroup;
+			children = (
+				845D82F227FFF95600FE30FE /* View Model */,
+				8466B473282A3B0B00E9507C /* View Controller */,
+			);
+			path = "Signup OTP";
+			sourceTree = "<group>";
+		};
+		8466B45D282A395400E9507C /* Create New Account */ = {
+			isa = PBXGroup;
+			children = (
+				8466B474282A3B1300E9507C /* View Controller */,
+			);
+			path = "Create New Account";
+			sourceTree = "<group>";
+		};
+		8466B45E282A397C00E9507C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				841120A0281BCD6700D6F602 /* Xib */,
+				84F0F1C4280848BB00A694BA /* Model */,
+				8466B470282A3AEE00E9507C /* View Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8466B460282A39BF00E9507C /* User Bio */ = {
+			isa = PBXGroup;
+			children = (
+				8466B46E282A3ABD00E9507C /* Xib */,
+				8466B46F282A3ACD00E9507C /* View Controller */,
+			);
+			path = "User Bio";
+			sourceTree = "<group>";
+		};
+		8466B461282A39C700E9507C /* User Height */ = {
+			isa = PBXGroup;
+			children = (
+				8466B493282A47D000E9507C /* View Controller */,
+			);
+			path = "User Height";
+			sourceTree = "<group>";
+		};
+		8466B462282A39D700E9507C /* User Intrested */ = {
+			isa = PBXGroup;
+			children = (
+				84F0F1C22808116900A694BA /* LMUserIntrestedVC.swift */,
+			);
+			path = "User Intrested";
+			sourceTree = "<group>";
+		};
+		8466B463282A39EC00E9507C /* User Intrested Age */ = {
+			isa = PBXGroup;
+			children = (
+				845D4749280C2BA2004B84ED /* LMUserIntrestAgeVC.swift */,
+			);
+			path = "User Intrested Age";
+			sourceTree = "<group>";
+		};
+		8466B464282A3A0200E9507C /* User Location */ = {
+			isa = PBXGroup;
+			children = (
+				84B2351A283145180074DE6A /* View Controller */,
+			);
+			path = "User Location";
+			sourceTree = "<group>";
+		};
+		8466B465282A3A0D00E9507C /* User HomeTown */ = {
+			isa = PBXGroup;
+			children = (
+				8466B47E282A3E4F00E9507C /* View Controller */,
+			);
+			path = "User HomeTown";
+			sourceTree = "<group>";
+		};
+		8466B466282A3A1A00E9507C /* User Job */ = {
+			isa = PBXGroup;
+			children = (
+				84C05066281190060087E4E4 /* LMUserJobVC.swift */,
+			);
+			path = "User Job";
+			sourceTree = "<group>";
+		};
+		8466B467282A3A2400E9507C /* User Education */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1EB28128CF00088F83F /* LMUserEducationVC.swift */,
+			);
+			path = "User Education";
+			sourceTree = "<group>";
+		};
+		8466B468282A3A3100E9507C /* User Religion */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1ED281294F40088F83F /* LMUserReligionVC.swift */,
+			);
+			path = "User Religion";
+			sourceTree = "<group>";
+		};
+		8466B469282A3A4000E9507C /* User Political */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1EF2812A0890088F83F /* LMUserPoliticalVC.swift */,
+			);
+			path = "User Political";
+			sourceTree = "<group>";
+		};
+		8466B46A282A3A5200E9507C /* User Cigarettes */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1F12812B76E0088F83F /* LMUserCigarettesVC.swift */,
+			);
+			path = "User Cigarettes";
+			sourceTree = "<group>";
+		};
+		8466B46B282A3A6400E9507C /* User Alcohol */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1F32812BABD0088F83F /* LMUserAlcoholVC.swift */,
+			);
+			path = "User Alcohol";
+			sourceTree = "<group>";
+		};
+		8466B46C282A3A8C00E9507C /* User Marijuana */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1F52812C3DA0088F83F /* LMUserMarijuanaVC.swift */,
+			);
+			path = "User Marijuana";
+			sourceTree = "<group>";
+		};
+		8466B46D282A3A9D00E9507C /* User Drugs */ = {
+			isa = PBXGroup;
+			children = (
+				8466B49F282AC64000E9507C /* View Model */,
+				8466B49C282AC25000E9507C /* View Controller */,
+			);
+			path = "User Drugs";
+			sourceTree = "<group>";
+		};
+		8466B46E282A3ABD00E9507C /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8440F9C628200A41001A4452 /* LMBioTC.swift */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		8466B46F282A3ACD00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84B4890E281D7B9400C89362 /* LMUserBioVC.swift */,
+				8466B47D282A3DC200E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B470282A3AEE00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8420ECD82806E87100C21D8E /* LMProfileVC.swift */,
+				842E66D32805EB4D006C0F75 /* LMUserProfileVC.swift */,
+				848F07E528755EB500ED5ADB /* LMPostPhotosCC.swift */,
+				848F07E628755EB500ED5ADB /* LMPostPhotosCC.xib */,
+				8466B490282A474B00E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B471282A3AFC00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BBD46F27FD58C50002D0E8 /* LMContinueWithPhoneNoVC.swift */,
+				84DEB7562832A983008A9BE3 /* Delegate+DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B472282A3B0400E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BBD47827FDBF400002D0E8 /* LMCountryCodeSelectVC.swift */,
+				8466B47A282A3D2000E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B473282A3B0B00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8421C2F727FEBBD400F4A709 /* LMSignupOTPVC.swift */,
+				8466B48B282A468600E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B474282A3B1300E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84B764352817C90700420601 /* LMCreateNewAccountVC.swift */,
+				84B764332817C8E900420601 /* LMCreateAccountPopupVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B475282A3B1D00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4DA27FB20F300BA4771 /* LMWelcomeScreenVC.swift */,
+				8415DBBC27FCABBD00A4481F /* LMPageVC.swift */,
+				8466B486282A438500E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B47A282A3D2000E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B476282A3BB400E9507C /* CountryCodeTableViewDelegate+TableViewDataSource .swift */,
+				8466B478282A3CC600E9507C /* CountryCodeSearchBarDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B47D282A3DC200E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B487282A450200E9507C /* UserBioTableViewDelegate+TableViewDataSource .swift */,
+				8466B491282A47A500E9507C /* UserBioTextViewDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B47E282A3E4F00E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C0506428118FFC0087E4E4 /* LMUserHomeTownVC.swift */,
+				8466B481282A3EBF00E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B481282A3EBF00E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B47F282A3EA300E9507C /* UserHomeTownTableViewDelegate+TableViewDataSource .swift */,
+				8466B482282A3F2C00E9507C /* UserHomeTownTextFieldDelegate .swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B486282A438500E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B484282A414E00E9507C /* WelcomeScreenPageViewDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B48B282A468600E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B489282A464200E9507C /* OtpTextFieldDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B490282A474B00E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B48C282A46D200E9507C /* ProfileCollectionViewDelegate+DataSource.swift */,
+				8466B48E282A472500E9507C /* ProfilePageViewDelegate+Datasource.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B493282A47D000E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8420ECDA28073BC700C21D8E /* LMUserHeightVC.swift */,
+				8466B496282A481400E9507C /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B496282A481400E9507C /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8466B494282A480700E9507C /* UserHeightPickerviewDelegate+Datasource.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		8466B499282A921200E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847BF7D428239A5C0067D4E8 /* LMHomeMapVC.swift */,
+				8481530D282C1755009CDEA7 /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B49A282A922500E9507C /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				842CDC7C281955810053AFDD /* WebServices.swift */,
+				842CDC8228196DD60053AFDD /* WebServices+Login.swift */,
+				8466B497282A81CE00E9507C /* WebServices+Home.swift */,
+				84EA22A22847379800736479 /* WebServices+Matches.swift */,
+				84AA5C5E284F54710002666C /* WebServices+Menu.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		8466B49B282A931F00E9507C /* Home Map */ = {
+			isa = PBXGroup;
+			children = (
+				841551FD2825575C003AC36B /* Xib */,
+				841551FC2825574D003AC36B /* Model */,
+				84392829283CEF0100A35EFC /* View Model */,
+				8466B499282A921200E9507C /* View Controller */,
+			);
+			path = "Home Map";
+			sourceTree = "<group>";
+		};
+		8466B49C282AC25000E9507C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849EE1F72812D4A00088F83F /* LMUserDrugsVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		8466B49F282AC64000E9507C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8466B49D282AC26C00E9507C /* LMUserDrugsVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		846E6908284102730067274A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84374DA4283E5C0C003753F0 /* LMInviteEventTC.swift */,
+				84374DA5283E5C0C003753F0 /* LMInviteEventTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		846E69092841027B0067274A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846E6902284094230067274A /* ReportModel.swift */,
+				848B542F2849CF2100166E0A /* MyEventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846E690A2841028E0067274A /* Invite View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84374DA1283E5B71003753F0 /* LMInviteEventPopupVC.swift */,
+				8467B98C283F82C10057545D /* LMSendInvitePopupVC.swift */,
+				84A40052284399B200B39402 /* Delegate + Datasource */,
+			);
+			path = "Invite View Controller";
+			sourceTree = "<group>";
+		};
+		846E690B284102A20067274A /* Report View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8467B98E283FA21E0057545D /* LMReportPopupVC.swift */,
+				846E69042840A8680067274A /* LMReportFeedbackVC.swift */,
+			);
+			path = "Report View Controller";
+			sourceTree = "<group>";
+		};
+		846E690C284102BB0067274A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				846E690A2841028E0067274A /* Invite View Controller */,
+				846E690B284102A20067274A /* Report View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		846E690D284102D90067274A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84374D9C283E1738003753F0 /* LMMatchSelectedVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		846E690E284102FB0067274A /* Tabel Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84DEED1D2836343300762A71 /* LMMaybeMatchesTC.swift */,
+				84DEED1E2836343300762A71 /* LMMaybeMatchesTC.xib */,
+			);
+			path = "Tabel Cell";
+			sourceTree = "<group>";
+		};
+		846E690F284103070067274A /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84A1EF812837B860008FF95D /* LMMatchesImagesCC.swift */,
+				84A1EF822837B860008FF95D /* LMMatchesImagesCC.xib */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		846FFB05285DF8EB00CF27AC /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8493E82B2857232800CB48BC /* LMInvitesReceivedTC.xib */,
+				8493E82A2857232800CB48BC /* LMInvitesReceivedTC.swift */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		846FFB06285DF8F500CF27AC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B326D4285756FA00B4B904 /* LMInvitesReceivedVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84791D57284F3C6B0016556E /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C3902848C52E0039B365 /* LumidatesTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84791D5A284F3F4E0016556E /* Settings Page */ = {
+			isa = PBXGroup;
+			children = (
+				84791D5E284F3F970016556E /* Xib */,
+				84791D5D284F3F890016556E /* Model */,
+				84791D5B284F3F650016556E /* View Controller */,
+			);
+			path = "Settings Page";
+			sourceTree = "<group>";
+		};
+		84791D5B284F3F650016556E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847D4F62284DC58D00532C98 /* LMSettingsVC.swift */,
+				84791D5C284F3F6E0016556E /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84791D5C284F3F6E0016556E /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84791D58284F3D560016556E /* SettingsTableViewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84791D5D284F3F890016556E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				847D4F6E284DDCED00532C98 /* SettingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84791D5E284F3F970016556E /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				847D4F64284DC6C900532C98 /* LMSettingsTC.swift */,
+				847D4F65284DC6C900532C98 /* LMSettingsTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		84791D5F284F3FD50016556E /* Settings Options */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D807285B042D00C90761 /* FAQ */,
+				84C5D808285B043300C90761 /* AboutUs */,
+				84C5D809285B043B00C90761 /* PrivacyPolicy */,
+			);
+			path = "Settings Options";
+			sourceTree = "<group>";
+		};
+		847D4F61284DC55E00532C98 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				84791D5A284F3F4E0016556E /* Settings Page */,
+				84791D5F284F3FD50016556E /* Settings Options */,
+				842860872851CBB3006548CA /* My Bookings */,
+				84C5D813285B192E00C90761 /* Bookings Details */,
+				8466B457282A383500E9507C /* Terms And Conditions */,
+				84E20429286F0A5C00AF5100 /* LMRecoveryMailVC.swift */,
+				84E2042B286F131D00AF5100 /* RecoveryMaiModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		847E7273282294C6004C27FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84AB033D2834FD3800425AF9 /* Home Page */,
+				8466B49B282A931F00E9507C /* Home Map */,
+				84815306282C13E4009CDEA7 /* Event Details */,
+				84DEED1A283628B800762A71 /* Maybe Matches */,
+				841496E7283A6B1F0026EE54 /* Selected Match */,
+				84374DA3283E5B7B003753F0 /* Popup Invite And Report */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		847EE4CA27FB20F300BA4771 = {
+			isa = PBXGroup;
+			children = (
+				847EE4D527FB20F300BA4771 /* Lumi */,
+				847EE4EF27FB20F500BA4771 /* LumiTests */,
+				847EE4F927FB20F500BA4771 /* LumiUITests */,
+				847EE4D427FB20F300BA4771 /* Products */,
+				DCE435A4D30C2B815901E4C0 /* Pods */,
+				B4001B1D8EEB0BA1F774C923 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		847EE4D427FB20F300BA4771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4D327FB20F300BA4771 /* Lumi.app */,
+				847EE4EC27FB20F500BA4771 /* LumiTests.xctest */,
+				847EE4F627FB20F500BA4771 /* LumiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847EE4D527FB20F300BA4771 /* Lumi */ = {
+			isa = PBXGroup;
+			children = (
+				848164D228092F89001B76BE /* Support */,
+				845C8EC927FC2DEB00762E1C /* AppController */,
+				84B764302817C7DD00420601 /* Modules */,
+				845C8ECC27FC2E8300762E1C /* Storyboard */,
+				848164D82809557B001B76BE /* Utility */,
+				84BBD47127FD77040002D0E8 /* Resources */,
+				847EE4DF27FB20F300BA4771 /* Lumi.xcdatamodeld */,
+			);
+			path = Lumi;
+			sourceTree = "<group>";
+		};
+		847EE4EF27FB20F500BA4771 /* LumiTests */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4F027FB20F500BA4771 /* LumiTests.swift */,
+			);
+			path = LumiTests;
+			sourceTree = "<group>";
+		};
+		847EE4F927FB20F500BA4771 /* LumiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4FA27FB20F500BA4771 /* LumiUITests.swift */,
+				847EE4FC27FB20F500BA4771 /* LumiUITestsLaunchTests.swift */,
+			);
+			path = LumiUITests;
+			sourceTree = "<group>";
+		};
+		847EFC8E28190F710093C3EE /* Apputilits */ = {
+			isa = PBXGroup;
+			children = (
+				847EFC8C2819001B0093C3EE /* LMStoryboard.swift */,
+				842CDC7E2819617B0053AFDD /* NetworkConstant.swift */,
+			);
+			path = Apputilits;
+			sourceTree = "<group>";
+		};
+		84815306282C13E4009CDEA7 /* Event Details */ = {
+			isa = PBXGroup;
+			children = (
+				84815308282C1402009CDEA7 /* Xib */,
+				84815307282C13F2009CDEA7 /* View Controller */,
+			);
+			path = "Event Details";
+			sourceTree = "<group>";
+		};
+		84815307282C13F2009CDEA7 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FFF52C282B7F3900DD5C76 /* LMEventDetailsVC.swift */,
+				84FFF536282BD4A700DD5C76 /* LMEventsPageVC.swift */,
+				84815312282C1AA8009CDEA7 /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84815308282C1402009CDEA7 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84FFF532282BBF9D00DD5C76 /* LMEventsImageCC.swift */,
+				84FFF533282BBF9D00DD5C76 /* LMEventsImageCC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		8481530D282C1755009CDEA7 /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84815309282C15D5009CDEA7 /* HomeMapCollectionViewDelegate+Datasource.swift */,
+				8481530B282C16D7009CDEA7 /* HomeMapMapDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		84815312282C1AA8009CDEA7 /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84815310282C1A50009CDEA7 /* DetailsPageControllerDelegate+Datasource.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		848164D228092F89001B76BE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4D627FB20F300BA4771 /* AppDelegate.swift */,
+				847EE4D827FB20F300BA4771 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		848164D328093226001B76BE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84A1814B2833BDBA003DFB32 /* UIDevice.swift */,
+				84BBD47427FD7CF30002D0E8 /* StringConstant.swift */,
+				847BF7D82824036D0067D4E8 /* LMRouter.swift */,
+				8450F2DD2838EB4C00C7A35A /* UIViewExtension.swift */,
+				846E69062840DB570067274A /* UIImageExtension.swift */,
+				848164D42809325F001B76BE /* Enums.swift */,
+				848164D628093589001B76BE /* CommonFunction.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		848164D82809557B001B76BE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				847EFC8E28190F710093C3EE /* Apputilits */,
+				848164D328093226001B76BE /* Helper */,
+				848164DA2809558D001B76BE /* ThirdPartyCode */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		848164DA2809558D001B76BE /* ThirdPartyCode */ = {
+			isa = PBXGroup;
+			children = (
+				847691532831112A00E0FAB6 /* WMSegment.swift */,
+				84F0F1C528085E8D00A694BA /* SwiftyJSON.swift */,
+				84412C012814568B00712472 /* CityInfo.swift */,
+			);
+			path = ThirdPartyCode;
+			sourceTree = "<group>";
+		};
+		848164DB28095610001B76BE /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				847EE4E227FB20F500BA4771 /* Assets.xcassets */,
+				84B7643C28180F9500420601 /* ImageEnum.swift */,
+			);
+			path = "Image Assets";
+			sourceTree = "<group>";
+		};
+		848164DC28095622001B76BE /* Color Assets */ = {
+			isa = PBXGroup;
+			children = (
+				848164DD2809563B001B76BE /* Color.xcassets */,
+				84B7643A28180F7600420601 /* ColorEnum.swift */,
+			);
+			path = "Color Assets";
+			sourceTree = "<group>";
+		};
+		8493E82E28573BC800CB48BC /* Invites */ = {
+			isa = PBXGroup;
+			children = (
+				84B326CF28573D7600B4B904 /* View Controller */,
+				846FFB07285E041000CF27AC /* LMRevealEventsVC.swift */,
+				8461FC7228604C0E008BC842 /* LMRevealEventsVM.swift */,
+				846FFB09285E048800CF27AC /* LMRevealEventsTC.swift */,
+				8461FC7028603428008BC842 /* LMRevealEventsTC.xib */,
+			);
+			path = Invites;
+			sourceTree = "<group>";
+		};
+		8496EAA32844965600FAE2D0 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8496EAA12844964E00FAE2D0 /* LMPaymentVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84A40052284399B200B39402 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84A400502843994600B39402 /* InviteEventTableview.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84A4005528439E6C00B39402 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A4005328439D4F00B39402 /* LMReportFeedbackVM.swift */,
+				8496EAA42844D21B00FAE2D0 /* LMInviteEventPopupVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84AA5C64284F7E6A0002666C /* Selected Lumidate */ = {
+			isa = PBXGroup;
+			children = (
+				84530EA92851BB71005114B7 /* View Model */,
+				84AA5C65284F7E6A0002666C /* View Controler */,
+			);
+			path = "Selected Lumidate";
+			sourceTree = "<group>";
+		};
+		84AA5C65284F7E6A0002666C /* View Controler */ = {
+			isa = PBXGroup;
+			children = (
+				84AA5C68284F7E6A0002666C /* LMLumidateSelectedVC.swift */,
+				84AA5C66284F7E6A0002666C /* Delegate+Datasource */,
+			);
+			path = "View Controler";
+			sourceTree = "<group>";
+		};
+		84AA5C66284F7E6A0002666C /* Delegate+Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84AA5C67284F7E6A0002666C /* LumidateSelectedCollectionView.swift */,
+			);
+			path = "Delegate+Datasource";
+			sourceTree = "<group>";
+		};
+		84AB03332834BE4D00425AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A18149283388FD003DFB32 /* PaymentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84AB033A2834BF1000425AF9 /* Delegate+Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84AB03382834BEE000425AF9 /* PaymentTextfieldDelegate.swift */,
+				84AB03342834BE6E00425AF9 /* PaymentPickerViewDelegate.swift */,
+				84AB03362834BE8F00425AF9 /* PaymentTableviewDelegateDatasource.swift */,
+			);
+			path = "Delegate+Datasource";
+			sourceTree = "<group>";
+		};
+		84AB033D2834FD3800425AF9 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				84DEED162836220D00762A71 /* View Controler */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		84AB6678284647AE006E5818 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84AB667628464739006E5818 /* LMSubscriptionVC.swift */,
+				84F12DBC28461E5100A7BD50 /* LMSubscriptionPageVC.swift */,
+				84AB667B28464881006E5818 /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84AB667B28464881006E5818 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84AB667928464859006E5818 /* SubscriptionPageview.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84B2351A283145180074DE6A /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845D474D280C51C4004B84ED /* LMUserLocationVC.swift */,
+				84B2351D283145650074DE6A /* Delegate + DataSource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84B2351D283145650074DE6A /* Delegate + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84B2351B283145590074DE6A /* LocationMapDelegate.swift */,
+			);
+			path = "Delegate + DataSource";
+			sourceTree = "<group>";
+		};
+		84B326CE28573D4A00B4B904 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84B326CA28573D2100B4B904 /* LMInvitesSentTC.swift */,
+				84B326CB28573D2100B4B904 /* LMInvitesSentTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		84B326CF28573D7600B4B904 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847C0AE42853344E00736637 /* LMInvitesVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84B764302817C7DD00420601 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84CC986328A0F857001015C7 /* New Group */,
+				84B764392817F92F00420601 /* CommonModule */,
+				845C8ECD27FC2F0600762E1C /* PreLogin */,
+				847E7273282294C6004C27FC /* Home */,
+				84C2C3842848A84F0039B365 /* Menu */,
+				84EA22A428475CA100736479 /* Payment And Subscription */,
+				8461FC762860A96F008BC842 /* Chat */,
+				844E7FB22862D759008F7A18 /* MyProfile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84B764392817F92F00420601 /* CommonModule */ = {
+			isa = PBXGroup;
+			children = (
+				84B764372817F92000420601 /* LMBaseVC.swift */,
+			);
+			name = CommonModule;
+			path = PreLogin/CommonModule;
+			sourceTree = "<group>";
+		};
+		84B801CC283B5EBA008CB34B /* Delegate+Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84B801CA283B4E51008CB34B /* MatchSelectedCollectionView.swift */,
+			);
+			path = "Delegate+Datasource";
+			sourceTree = "<group>";
+		};
+		84BBD47127FD77040002D0E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848164DC28095622001B76BE /* Color Assets */,
+				848164DB28095610001B76BE /* Image Assets */,
+				841B027A2830032C00CB58AF /* lumiTutorial.mp4 */,
+				842EA99527FDEED900A64988 /* CountryInfo.json */,
+				847EE4E427FB20F500BA4771 /* LaunchScreen.storyboard */,
+				84A18147283384B7003DFB32 /* GoogleService-Info.plist */,
+				847EE4E727FB20F500BA4771 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84C2C3842848A84F0039B365 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C3852848A8700039B365 /* Menu Page */,
+				84C2C3892848AE040039B365 /* Lumidates */,
+				84AA5C64284F7E6A0002666C /* Selected Lumidate */,
+				847D4F61284DC55E00532C98 /* Settings */,
+				84E20428286F0A0B00AF5100 /* Invites */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		84C2C3852848A8700039B365 /* Menu Page */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C3862848A87B0039B365 /* View Controller */,
+			);
+			path = "Menu Page";
+			sourceTree = "<group>";
+		};
+		84C2C3862848A87B0039B365 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C38228487C490039B365 /* LMMenuVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C2C3892848AE040039B365 /* Lumidates */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C38F2848B10E0039B365 /* Xib */,
+				84530EA82851BB60005114B7 /* Model */,
+				84530EAC2851C1ED005114B7 /* View Model */,
+				84C2C38A2848AE2D0039B365 /* View Controller */,
+			);
+			path = Lumidates;
+			sourceTree = "<group>";
+		};
+		84C2C38A2848AE2D0039B365 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C2C3872848ACC60039B365 /* LMLumidatesVC.swift */,
+				84791D57284F3C6B0016556E /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C2C38F2848B10E0039B365 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84530EA72851BB4A005114B7 /* Table Cell */,
+				84530EA62851BB3E005114B7 /* Collection Cell */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		84C5D7FB285AF95400C90761 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B326D2285740BB00B4B904 /* LMInvitesSentVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84C5D7FE285B002A00C90761 /* Invite Sent */ = {
+			isa = PBXGroup;
+			children = (
+				84B326CE28573D4A00B4B904 /* Xib */,
+				84C5D7FB285AF95400C90761 /* View Model */,
+				84C5D7FF285B004000C90761 /* View Controller */,
+			);
+			path = "Invite Sent";
+			sourceTree = "<group>";
+		};
+		84C5D7FF285B004000C90761 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847C0AE6285334B200736637 /* LMInvitesSentVC.swift */,
+				84C5D800285B004A00C90761 /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C5D800285B004A00C90761 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D7FC285AFFCA00C90761 /* InviteSentTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84C5D801285B007700C90761 /* Invite Recived */ = {
+			isa = PBXGroup;
+			children = (
+				846FFB05285DF8EB00CF27AC /* Xib */,
+				846FFB06285DF8F500CF27AC /* View Model */,
+				84C5D802285B008600C90761 /* View Controller */,
+			);
+			path = "Invite Recived";
+			sourceTree = "<group>";
+		};
+		84C5D802285B008600C90761 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				847C0AE7285334B300736637 /* LMInvitesReceivedVC.swift */,
+				84C5D806285B026B00C90761 /* Delegate + Datasorces */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C5D803285B00D000C90761 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841B18D7280452800077D2C7 /* LMTermsAndConditionVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C5D806285B026B00C90761 /* Delegate + Datasorces */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D804285B020F00C90761 /* InviteRequiredTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasorces";
+			sourceTree = "<group>";
+		};
+		84C5D807285B042D00C90761 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				847D4F72284E250D00532C98 /* LMFaqVC.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		84C5D808285B043300C90761 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				847D4F70284E1F2700532C98 /* LMAboutUsVC.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		84C5D809285B043B00C90761 /* PrivacyPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				84791D55284F295E0016556E /* LMPrivacyPolicyVC.swift */,
+			);
+			path = PrivacyPolicy;
+			sourceTree = "<group>";
+		};
+		84C5D80A285B046E00C90761 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				842860852851CB70006548CA /* LMMyBookingsVC.swift */,
+				84C5D80F285B162600C90761 /* Delegate + Datasource */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84C5D80B285B04E300C90761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8428608C2851DF96006548CA /* BookingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C5D80C285B04EC00C90761 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				842860882851CBE4006548CA /* LMMyBookingsTC.swift */,
+				842860892851CBE4006548CA /* LMMyBookingsTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		84C5D80F285B162600C90761 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D80D285B15AC00C90761 /* BookingTableviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84C5D812285B17F800C90761 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D810285B165A00C90761 /* LMMyBookingsVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84C5D813285B192E00C90761 /* Bookings Details */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D814285B1B4800C90761 /* View Controller */,
+			);
+			path = "Bookings Details";
+			sourceTree = "<group>";
+		};
+		84C5D814285B1B4800C90761 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8428608E28520AF6006548CA /* LMBookingDetailsVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84CC986328A0F857001015C7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				84CC986128A0F851001015C7 /* ShareToInsta.swift */,
+				84CC986428A0F8A0001015C7 /* InstagramHandler.swift */,
+			);
+			name = "New Group";
+			path = PreLogin/CommonModule;
+			sourceTree = "<group>";
+		};
+		84DE4028286B37470046331F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84DE4026286B29980046331F /* LMUpdateProfileVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84DEB753283252ED008A9BE3 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				84DEB74F28323ECB008A9BE3 /* LMSavedCardsTC.swift */,
+				84DEB75028323ECB008A9BE3 /* LMSavedCardsTC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		84DEB7562832A983008A9BE3 /* Delegate+DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				84DEB7542832A96A008A9BE3 /* PhoneTextFieldDelegate.swift */,
+			);
+			path = "Delegate+DataSource";
+			sourceTree = "<group>";
+		};
+		84DEED162836220D00762A71 /* View Controler */ = {
+			isa = PBXGroup;
+			children = (
+				84AB033B2834FD3200425AF9 /* LMHomeVC.swift */,
+				84DEED172836221D00762A71 /* Delegate + Datasource */,
+			);
+			path = "View Controler";
+			sourceTree = "<group>";
+		};
+		84DEED172836221D00762A71 /* Delegate + Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				84DEED14283621EE00762A71 /* HomePageviewDelegate.swift */,
+			);
+			path = "Delegate + Datasource";
+			sourceTree = "<group>";
+		};
+		84DEED1A283628B800762A71 /* Maybe Matches */ = {
+			isa = PBXGroup;
+			children = (
+				845686DB2837AEC900480DB3 /* Xib */,
+				841496E6283A6B0C0026EE54 /* Model */,
+				8439282C283CF5B300A35EFC /* View Model */,
+				845686DC2837AEE800480DB3 /* View controller */,
+			);
+			path = "Maybe Matches";
+			sourceTree = "<group>";
+		};
+		84E20428286F0A0B00AF5100 /* Invites */ = {
+			isa = PBXGroup;
+			children = (
+				84C5D7FE285B002A00C90761 /* Invite Sent */,
+				84C5D801285B007700C90761 /* Invite Recived */,
+				8493E82E28573BC800CB48BC /* Invites */,
+			);
+			path = Invites;
+			sourceTree = "<group>";
+		};
+		84EA229E284736E200736479 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EA229C284733CA00736479 /* SubscriptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EA22A12847372400736479 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EA229F2847370200736479 /* LMSubscriptionVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		84EA22A428475CA100736479 /* Payment And Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				84445837282D36C500A5D7AB /* Payment */,
+				84F12DBE2846460800A7BD50 /* Subscription */,
+			);
+			path = "Payment And Subscription";
+			sourceTree = "<group>";
+		};
+		84F0F1C4280848BB00A694BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84691A362802BE2400949542 /* UserProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84F12DBE2846460800A7BD50 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				84EA229E284736E200736479 /* Model */,
+				84EA22A12847372400736479 /* View Model */,
+				84AB6678284647AE006E5818 /* View Controller */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		84F1BCC2286B2778000AD959 /* My Name */ = {
+			isa = PBXGroup;
+			children = (
+				84B3C3FC2865E1CB004DD1F7 /* LMMyNameVC.swift */,
+			);
+			path = "My Name";
+			sourceTree = "<group>";
+		};
+		84F1BCC3286B277E000AD959 /* My Gender */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B528699C03001B3C1A /* LMMyGenderVC.swift */,
+			);
+			path = "My Gender";
+			sourceTree = "<group>";
+		};
+		84F1BCC4286B2786000AD959 /* My Height */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B72869C440001B3C1A /* LMMyHeightVC.swift */,
+			);
+			path = "My Height";
+			sourceTree = "<group>";
+		};
+		84F1BCC5286B278E000AD959 /* My Job */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7B92869D0DE001B3C1A /* LMMyJobVC.swift */,
+			);
+			path = "My Job";
+			sourceTree = "<group>";
+		};
+		84F1BCC6286B2796000AD959 /* My Education */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7BB2869D560001B3C1A /* LMMyEducationVC.swift */,
+			);
+			path = "My Education";
+			sourceTree = "<group>";
+		};
+		84F1BCC7286B27A1000AD959 /* My Intrested In */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCB4286AC150000AD959 /* LMIntrestedInVC.swift */,
+			);
+			path = "My Intrested In";
+			sourceTree = "<group>";
+		};
+		84F1BCC8286B27B9000AD959 /* My IntrestAge */ = {
+			isa = PBXGroup;
+			children = (
+				841CD7BD2869E400001B3C1A /* LMMyIntrestAgeVC.swift */,
+			);
+			path = "My IntrestAge";
+			sourceTree = "<group>";
+		};
+		84F1BCC9286B27C9000AD959 /* My Religious */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCB6286ACB26000AD959 /* LMMyReligiousBeliefVC.swift */,
+			);
+			path = "My Religious";
+			sourceTree = "<group>";
+		};
+		84F1BCCA286B27D6000AD959 /* My Polotical */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCB8286ADE37000AD959 /* LMMyPoloticalLearningVC.swift */,
+			);
+			path = "My Polotical";
+			sourceTree = "<group>";
+		};
+		84F1BCCB286B27DE000AD959 /* My Cigarette */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCBA286AE4DA000AD959 /* LMMyCigaretteVC.swift */,
+			);
+			path = "My Cigarette";
+			sourceTree = "<group>";
+		};
+		84F1BCCC286B27EE000AD959 /* My Alcohol */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCBC286AEA26000AD959 /* LMMyAlcoholVC.swift */,
+			);
+			path = "My Alcohol";
+			sourceTree = "<group>";
+		};
+		84F1BCCD286B27FF000AD959 /* My Marijuana  */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCBE286AEA40000AD959 /* LMMyMarijuanaVC.swift */,
+			);
+			path = "My Marijuana ";
+			sourceTree = "<group>";
+		};
+		84F1BCCE286B2813000AD959 /* My Drugs */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BCC0286AEA5D000AD959 /* LMMyDrugsVC.swift */,
+			);
+			path = "My Drugs";
+			sourceTree = "<group>";
+		};
+		84F1BCCF286B286A000AD959 /* Update Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84DE4028286B37470046331F /* View Model */,
+				845A80C32879AB9C00B85288 /* View Controllers */,
+			);
+			path = "Update Profile";
+			sourceTree = "<group>";
+		};
+		B4001B1D8EEB0BA1F774C923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B15B41036C6D8FCD86D322 /* Pods_Lumi.framework */,
+				5976199DFD5A0490F9ECCA67 /* Pods_Lumi_LumiUITests.framework */,
+				FC7A6E295271D8C55BC20376 /* Pods_LumiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE435A4D30C2B815901E4C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D33F71640F8D69549C1BA2 /* Pods-Lumi.debug.xcconfig */,
+				2FD5C94B3C9E15BEB35E149B /* Pods-Lumi.release.xcconfig */,
+				029BB656B9948AF6DDFD054F /* Pods-Lumi-LumiUITests.debug.xcconfig */,
+				B591AD7B2C43F0E98614BE6E /* Pods-Lumi-LumiUITests.release.xcconfig */,
+				A16E398BFD1678958DAC64C4 /* Pods-LumiTests.debug.xcconfig */,
+				BE487FDB42A2E3CB0556F034 /* Pods-LumiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847EE4D227FB20F300BA4771 /* Lumi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EE50027FB20F500BA4771 /* Build configuration list for PBXNativeTarget "Lumi" */;
+			buildPhases = (
+				AB51492DAA85DAFC42C46CC7 /* [CP] Check Pods Manifest.lock */,
+				847EE4CF27FB20F300BA4771 /* Sources */,
+				847EE4D027FB20F300BA4771 /* Frameworks */,
+				847EE4D127FB20F300BA4771 /* Resources */,
+				656DDD9DEDD03B1810BF726B /* [CP] Embed Pods Frameworks */,
+				848164DF28095A7D001B76BE /* Swift Lint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lumi;
+			productName = Lumi;
+			productReference = 847EE4D327FB20F300BA4771 /* Lumi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847EE4EB27FB20F500BA4771 /* LumiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EE50327FB20F500BA4771 /* Build configuration list for PBXNativeTarget "LumiTests" */;
+			buildPhases = (
+				D837315DC1744ACC2517F30A /* [CP] Check Pods Manifest.lock */,
+				847EE4E827FB20F500BA4771 /* Sources */,
+				847EE4E927FB20F500BA4771 /* Frameworks */,
+				847EE4EA27FB20F500BA4771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847EE4EE27FB20F500BA4771 /* PBXTargetDependency */,
+			);
+			name = LumiTests;
+			productName = LumiTests;
+			productReference = 847EE4EC27FB20F500BA4771 /* LumiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847EE4F527FB20F500BA4771 /* LumiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EE50627FB20F500BA4771 /* Build configuration list for PBXNativeTarget "LumiUITests" */;
+			buildPhases = (
+				382BFF8F4D8EBBD07B3A9B56 /* [CP] Check Pods Manifest.lock */,
+				847EE4F227FB20F500BA4771 /* Sources */,
+				847EE4F327FB20F500BA4771 /* Frameworks */,
+				847EE4F427FB20F500BA4771 /* Resources */,
+				F5F8B7DF4DCAB0F18DC55E88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847EE4F827FB20F500BA4771 /* PBXTargetDependency */,
+			);
+			name = LumiUITests;
+			productName = LumiUITests;
+			productReference = 847EE4F627FB20F500BA4771 /* LumiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847EE4CB27FB20F300BA4771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					847EE4D227FB20F300BA4771 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					847EE4EB27FB20F500BA4771 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 847EE4D227FB20F300BA4771;
+					};
+					847EE4F527FB20F500BA4771 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 847EE4D227FB20F300BA4771;
+					};
+				};
+			};
+			buildConfigurationList = 847EE4CE27FB20F300BA4771 /* Build configuration list for PBXProject "Lumi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847EE4CA27FB20F300BA4771;
+			productRefGroup = 847EE4D427FB20F300BA4771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847EE4D227FB20F300BA4771 /* Lumi */,
+				847EE4EB27FB20F500BA4771 /* LumiTests */,
+				847EE4F527FB20F500BA4771 /* LumiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847EE4D127FB20F300BA4771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844E7FC02862E55A008F7A18 /* LMBasicInfoTC.xib in Resources */,
+				845C8ED227FC73A300762E1C /* PreLogin.storyboard in Resources */,
+				8428608B2851CBE4006548CA /* LMMyBookingsTC.xib in Resources */,
+				84DEED202836343300762A71 /* LMMaybeMatchesTC.xib in Resources */,
+				8427F826286DA4EA0058ED8F /* LMViewAsTC.xib in Resources */,
+				84F21728286345AC000C4547 /* LMPreferenceTC.xib in Resources */,
+				847EE4E627FB20F500BA4771 /* LaunchScreen.storyboard in Resources */,
+				848164DE2809563B001B76BE /* Color.xcassets in Resources */,
+				84A1EF842837B860008FF95D /* LMMatchesImagesCC.xib in Resources */,
+				844E7FCC286332AA008F7A18 /* LMWorkEducationTC.xib in Resources */,
+				8493E82D2857232800CB48BC /* LMInvitesReceivedTC.xib in Resources */,
+				844E7FBC2862D93C008F7A18 /* LMNamePhotosTC.xib in Resources */,
+				848F07E828755EB500ED5ADB /* LMPostPhotosCC.xib in Resources */,
+				844E7FC8286302FB008F7A18 /* LMMyBioQuesTC.xib in Resources */,
+				84DEB75228323ECB008A9BE3 /* LMSavedCardsTC.xib in Resources */,
+				84F2172C286346E7000C4547 /* LMMyProfileCellTC.xib in Resources */,
+				84B326CD28573D2100B4B904 /* LMInvitesSentTC.xib in Resources */,
+				847D4F67284DC6C900532C98 /* LMSettingsTC.xib in Resources */,
+				841496E5283A38A80026EE54 /* LMUserBioCC.xib in Resources */,
+				84FFF535282BBF9D00DD5C76 /* LMEventsImageCC.xib in Resources */,
+				841551F52824DE1D003AC36B /* Home.storyboard in Resources */,
+				8461FC7A2860AA7F008BC842 /* LMChatTC.xib in Resources */,
+				8427F820286DA4460058ED8F /* LMViewImagesCC.xib in Resources */,
+				8447C75228643B5E0025CEAB /* FooterCell.xib in Resources */,
+				8427F816286D7E840058ED8F /* LMShowPhotosCC.xib in Resources */,
+				84B3C3FB2865C895004DD1F7 /* LMMyPhotosCC.xib in Resources */,
+				84A91C6A2872B0A3000B62D3 /* LMUpdateBioTC.xib in Resources */,
+				841B027B2830032C00CB58AF /* lumiTutorial.mp4 in Resources */,
+				84AA5C63284F688A0002666C /* LMLumidatesImagesCC.xib in Resources */,
+				841551F92824FA11003AC36B /* LMEventsCardsCC.xib in Resources */,
+				844E7FAF2862D6C6008F7A18 /* MyProfile.storyboard in Resources */,
+				84969B7B284774700083C578 /* Menu.storyboard in Resources */,
+				84A18148283384B7003DFB32 /* GoogleService-Info.plist in Resources */,
+				847EE4E327FB20F500BA4771 /* Assets.xcassets in Resources */,
+				84C2C38E2848AF910039B365 /* LMLumidatesTC.xib in Resources */,
+				842EA99627FDEED900A64988 /* CountryInfo.json in Resources */,
+				8461FC7128603428008BC842 /* LMRevealEventsTC.xib in Resources */,
+				844E7FC42863018E008F7A18 /* LMMyBioTC.xib in Resources */,
+				84374DA7283E5C0C003753F0 /* LMInviteEventTC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4EA27FB20F500BA4771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4F427FB20F500BA4771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		382BFF8F4D8EBBD07B3A9B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lumi-LumiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656DDD9DEDD03B1810BF726B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lumi/Pods-Lumi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lumi/Pods-Lumi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lumi/Pods-Lumi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848164DF28095A7D001B76BE /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		AB51492DAA85DAFC42C46CC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lumi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D837315DC1744ACC2517F30A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LumiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F8B7DF4DCAB0F18DC55E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lumi-LumiUITests/Pods-Lumi-LumiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lumi-LumiUITests/Pods-Lumi-LumiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lumi-LumiUITests/Pods-Lumi-LumiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847EE4CF27FB20F300BA4771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466B495282A480700E9507C /* UserHeightPickerviewDelegate+Datasource.swift in Sources */,
+				84DEED15283621EE00762A71 /* HomePageviewDelegate.swift in Sources */,
+				84C5D811285B165A00C90761 /* LMMyBookingsVM.swift in Sources */,
+				8420ECDD280747F600C21D8E /* NetworkManager.swift in Sources */,
+				84BBD47527FD7CF30002D0E8 /* StringConstant.swift in Sources */,
+				847C0AE52853344E00736637 /* LMInvitesVC.swift in Sources */,
+				848164D52809325F001B76BE /* Enums.swift in Sources */,
+				8466B48F282A472500E9507C /* ProfilePageViewDelegate+Datasource.swift in Sources */,
+				844E7FCB286332AA008F7A18 /* LMWorkEducationTC.swift in Sources */,
+				84AA5C69284F7E6A0002666C /* LumidateSelectedCollectionView.swift in Sources */,
+				848B54302849CF2100166E0A /* MyEventModel.swift in Sources */,
+				8420ECD92806E87100C21D8E /* LMProfileVC.swift in Sources */,
+				84AA5C5D284F54360002666C /* LumidatesModel.swift in Sources */,
+				847BF7D528239A5C0067D4E8 /* LMHomeMapVC.swift in Sources */,
+				84DEED1F2836343300762A71 /* LMMaybeMatchesTC.swift in Sources */,
+				84A400512843994600B39402 /* InviteEventTableview.swift in Sources */,
+				84A4005428439D4F00B39402 /* LMReportFeedbackVM.swift in Sources */,
+				84EA229D284733CA00736479 /* SubscriptionModel.swift in Sources */,
+				8461FC7328604C0E008BC842 /* LMRevealEventsVM.swift in Sources */,
+				847D4F63284DC58D00532C98 /* LMSettingsVC.swift in Sources */,
+				84B3C3FA2865C895004DD1F7 /* LMMyPhotosCC.swift in Sources */,
+				841CD7A528696AD9001B3C1A /* ChatTableviewDelegate.swift in Sources */,
+				84A91C662872AB07000B62D3 /* LMUpdateBioVC.swift in Sources */,
+				84C2C38D2848AF910039B365 /* LMLumidatesTC.swift in Sources */,
+				841CD7AF286975B3001B3C1A /* LMMyProfileVM.swift in Sources */,
+				841786852850672E00734FC4 /* LMLumidateSelectedVM.swift in Sources */,
+				847D4F73284E250D00532C98 /* LMFaqVC.swift in Sources */,
+				848F07E728755EB500ED5ADB /* LMPostPhotosCC.swift in Sources */,
+				8466B480282A3EA300E9507C /* UserHomeTownTableViewDelegate+TableViewDataSource .swift in Sources */,
+				84EA22A32847379800736479 /* WebServices+Matches.swift in Sources */,
+				84F0F1C628085E8D00A694BA /* SwiftyJSON.swift in Sources */,
+				8461FC792860AA7F008BC842 /* LMChatTC.swift in Sources */,
+				84B3C3FD2865E1CB004DD1F7 /* LMMyNameVC.swift in Sources */,
+				84F1BCBB286AE4DA000AD959 /* LMMyCigaretteVC.swift in Sources */,
+				84DEB75128323ECB008A9BE3 /* LMSavedCardsTC.swift in Sources */,
+				849EE1EE281294F40088F83F /* LMUserReligionVC.swift in Sources */,
+				8427F821286DA4460058ED8F /* LMViewImagesCC.swift in Sources */,
+				8440F9C728200A41001A4452 /* LMBioTC.swift in Sources */,
+				84AB033C2834FD3200425AF9 /* LMHomeVC.swift in Sources */,
+				84AB667728464739006E5818 /* LMSubscriptionVC.swift in Sources */,
+				841CD7BA2869D0DE001B3C1A /* LMMyJobVC.swift in Sources */,
+				84815311282C1A50009CDEA7 /* DetailsPageControllerDelegate+Datasource.swift in Sources */,
+				847D4F6F284DDCED00532C98 /* SettingsModel.swift in Sources */,
+				845D474E280C51C4004B84ED /* LMUserLocationVC.swift in Sources */,
+				84BBD47B27FDCBE20002D0E8 /* LMCountryCodeTC.swift in Sources */,
+				84791D56284F295E0016556E /* LMPrivacyPolicyVC.swift in Sources */,
+				845D474A280C2BA2004B84ED /* LMUserIntrestAgeVC.swift in Sources */,
+				84412C022814568B00712472 /* CityInfo.swift in Sources */,
+				84B7643D28180F9500420601 /* ImageEnum.swift in Sources */,
+				8427F825286DA4EA0058ED8F /* LMViewAsTC.swift in Sources */,
+				8466B48A282A464200E9507C /* OtpTextFieldDelegate.swift in Sources */,
+				84F1BCB7286ACB26000AD959 /* LMMyReligiousBeliefVC.swift in Sources */,
+				841551F82824FA11003AC36B /* LMEventsCardsCC.swift in Sources */,
+				842CDC812819652F0053AFDD /* Webservices+EndPoints.swift in Sources */,
+				8496EAA52844D21B00FAE2D0 /* LMInviteEventPopupVM.swift in Sources */,
+				844B0FCC286DAB510047876F /* ViewAsTableviewDelegate.swift in Sources */,
+				842CDC7F2819617B0053AFDD /* NetworkConstant.swift in Sources */,
+				842EA99827FDEF6100A64988 /* CountryModel.swift in Sources */,
+				84E2042A286F0A5C00AF5100 /* LMRecoveryMailVC.swift in Sources */,
+				84691A372802BE2400949542 /* UserProfileModel.swift in Sources */,
+				849EE1F22812B76E0088F83F /* LMUserCigarettesVC.swift in Sources */,
+				844E7FB62862D80B008F7A18 /* LMMyProfileVC.swift in Sources */,
+				84B764362817C90700420601 /* LMCreateNewAccountVC.swift in Sources */,
+				846FFB0B285E048800CF27AC /* LMRevealEventsTC.swift in Sources */,
+				84374DA6283E5C0C003753F0 /* LMInviteEventTC.swift in Sources */,
+				8466B477282A3BB400E9507C /* CountryCodeTableViewDelegate+TableViewDataSource .swift in Sources */,
+				8467B98D283F82C10057545D /* LMSendInvitePopupVC.swift in Sources */,
+				8496EAA22844964E00FAE2D0 /* LMPaymentVM.swift in Sources */,
+				848164D728093589001B76BE /* CommonFunction.swift in Sources */,
+				84AB03392834BEE000425AF9 /* PaymentTextfieldDelegate.swift in Sources */,
+				84445836282D36B800A5D7AB /* LMPaymentVC.swift in Sources */,
+				84BBD47927FDBF400002D0E8 /* LMCountryCodeSelectVC.swift in Sources */,
+				84FFF52D282B7F3900DD5C76 /* LMEventDetailsVC.swift in Sources */,
+				8450F2DA2838D4A600C7A35A /* LumiUserModel.swift in Sources */,
+				84DEB7552832A96A008A9BE3 /* PhoneTextFieldDelegate.swift in Sources */,
+				8411209F281BCD5B00D6F602 /* LMStatusBarCC.swift in Sources */,
+				841496E4283A38A80026EE54 /* LMUserBioCC.swift in Sources */,
+				8450F2DC2838DB1500C7A35A /* LMMatchSelectedVC.swift in Sources */,
+				8466B488282A450200E9507C /* UserBioTableViewDelegate+TableViewDataSource .swift in Sources */,
+				84B326D5285756FA00B4B904 /* LMInvitesReceivedVM.swift in Sources */,
+				844E7FBF2862E55A008F7A18 /* LMBasicInfoTC.swift in Sources */,
+				8466B485282A414E00E9507C /* WelcomeScreenPageViewDelegate.swift in Sources */,
+				84AA5C5F284F54710002666C /* WebServices+Menu.swift in Sources */,
+				84FFF534282BBF9D00DD5C76 /* LMEventsImageCC.swift in Sources */,
+				8466B49E282AC26C00E9507C /* LMUserDrugsVM.swift in Sources */,
+				84374D9A283DFDCF003753F0 /* LumiUserDetails.swift in Sources */,
+				84DE4027286B29980046331F /* LMUpdateProfileVM.swift in Sources */,
+				84F12DBD28461E5100A7BD50 /* LMSubscriptionPageVC.swift in Sources */,
+				8466B48D282A46D200E9507C /* ProfileCollectionViewDelegate+DataSource.swift in Sources */,
+				8466B492282A47A500E9507C /* UserBioTextViewDelegate.swift in Sources */,
+				845045BF281A8B7E001B0C99 /* LMOtpVM.swift in Sources */,
+				8421C2F827FEBBD400F4A709 /* LMSignupOTPVC.swift in Sources */,
+				84A91C692872B0A3000B62D3 /* LMUpdateBioTC.swift in Sources */,
+				84F21727286345AC000C4547 /* LMPreferenceTC.swift in Sources */,
+				84530EAE2851C23C005114B7 /* LMLumidatesVM.swift in Sources */,
+				842CDC7D281955810053AFDD /* WebServices.swift in Sources */,
+				84F0F1C32808116900A694BA /* LMUserIntrestedVC.swift in Sources */,
+				84E2042C286F131D00AF5100 /* RecoveryMaiModel.swift in Sources */,
+				844E7FBB2862D93C008F7A18 /* LMNamePhotosTC.swift in Sources */,
+				849EE1EC28128CF00088F83F /* LMUserEducationVC.swift in Sources */,
+				84C5D7FD285AFFCA00C90761 /* InviteSentTableviewDelegate.swift in Sources */,
+				846E69052840A8680067274A /* LMReportFeedbackVC.swift in Sources */,
+				846E6903284094230067274A /* ReportModel.swift in Sources */,
+				847EE4E127FB20F300BA4771 /* Lumi.xcdatamodeld in Sources */,
+				84374DA2283E5B71003753F0 /* LMInviteEventPopupVC.swift in Sources */,
+				8461FC752860A96C008BC842 /* LMChatVC.swift in Sources */,
+				841B18D8280452800077D2C7 /* LMTermsAndConditionVC.swift in Sources */,
+				849EE1F82812D4A00088F83F /* LMUserDrugsVC.swift in Sources */,
+				84F1BCC1286AEA5D000AD959 /* LMMyDrugsVC.swift in Sources */,
+				842E66D42805EB4D006C0F75 /* LMUserProfileVC.swift in Sources */,
+				8421C34727FED85D00F4A709 /* LMPhoneNoVM.swift in Sources */,
+				845C9D192861D42800BA67B6 /* LMMessagesVC.swift in Sources */,
+				849EE1F02812A0890088F83F /* LMUserPoliticalVC.swift in Sources */,
+				841CD7B628699C03001B3C1A /* LMMyGenderVC.swift in Sources */,
+				84B2351C283145590074DE6A /* LocationMapDelegate.swift in Sources */,
+				845A80BE2879AB2500B85288 /* UpdateBioTableview.swift in Sources */,
+				8447C74528642D410025CEAB /* CellImageTextStruct.swift in Sources */,
+				8428608F28520AF6006548CA /* LMBookingDetailsVC.swift in Sources */,
+				84AB03372834BE8F00425AF9 /* PaymentTableviewDelegateDatasource.swift in Sources */,
+				841CD7BC2869D560001B3C1A /* LMMyEducationVC.swift in Sources */,
+				8493E82C2857232800CB48BC /* LMInvitesReceivedTC.swift in Sources */,
+				84AA5C61284F687C0002666C /* LMLumidatesImagesCC.swift in Sources */,
+				8427F81B286D916A0058ED8F /* LMViewAsVC.swift in Sources */,
+				84C2C3882848ACC60039B365 /* LMLumidatesVC.swift in Sources */,
+				84B7643B28180F7600420601 /* ColorEnum.swift in Sources */,
+				84AA5C6A284F7E6A0002666C /* LMLumidateSelectedVC.swift in Sources */,
+				847EFC8D2819001B0093C3EE /* LMStoryboard.swift in Sources */,
+				8420ECDB28073BC700C21D8E /* LMUserHeightVC.swift in Sources */,
+				842860862851CB70006548CA /* LMMyBookingsVC.swift in Sources */,
+				84B326D3285740BB00B4B904 /* LMInvitesSentVM.swift in Sources */,
+				847D4F66284DC6C900532C98 /* LMSettingsTC.swift in Sources */,
+				84F1BCBF286AEA40000AD959 /* LMMyMarijuanaVC.swift in Sources */,
+				84A1814A283388FD003DFB32 /* PaymentModel.swift in Sources */,
+				84C2C3912848C52E0039B365 /* LumidatesTableviewDelegate.swift in Sources */,
+				84A1814C2833BDBA003DFB32 /* UIDevice.swift in Sources */,
+				8467B98F283FA21E0057545D /* LMReportPopupVC.swift in Sources */,
+				8415DBBD27FCABBD00A4481F /* LMPageVC.swift in Sources */,
+				84BBD47027FD58C50002D0E8 /* LMContinueWithPhoneNoVC.swift in Sources */,
+				84F1BCB5286AC150000AD959 /* LMIntrestedInVC.swift in Sources */,
+				8428608D2851DF96006548CA /* BookingsModel.swift in Sources */,
+				847691542831112B00E0FAB6 /* WMSegment.swift in Sources */,
+				846FFB08285E041000CF27AC /* LMRevealEventsVC.swift in Sources */,
+				8466B479282A3CC600E9507C /* CountryCodeSearchBarDelegate.swift in Sources */,
+				845A80BB2879A86600B85288 /* MyProfileTableviewDelegate.swift in Sources */,
+				847C0AE9285334B300736637 /* LMInvitesReceivedVC.swift in Sources */,
+				84374D9F283E5385003753F0 /* MaybeMatchesTableviewDelegate.swift in Sources */,
+				842CDC8328196DD60053AFDD /* WebServices+Login.swift in Sources */,
+				84B764382817F92000420601 /* LMBaseVC.swift in Sources */,
+				84F2172B286346E7000C4547 /* LMMyProfileCellTC.swift in Sources */,
+				849EE1F42812BABD0088F83F /* LMUserAlcoholVC.swift in Sources */,
+				84A1EF832837B860008FF95D /* LMMatchesImagesCC.swift in Sources */,
+				84B4890F281D7B9400C89362 /* LMUserBioVC.swift in Sources */,
+				84C0506528118FFC0087E4E4 /* LMUserHomeTownVC.swift in Sources */,
+				847BF7D92824036D0067D4E8 /* LMRouter.swift in Sources */,
+				8450F2DE2838EB4C00C7A35A /* UIViewExtension.swift in Sources */,
+				849EE1F62812C3DA0088F83F /* LMUserMarijuanaVC.swift in Sources */,
+				8481530A282C15D5009CDEA7 /* HomeMapCollectionViewDelegate+Datasource.swift in Sources */,
+				8481530C282C16D7009CDEA7 /* HomeMapMapDelegate.swift in Sources */,
+				84F1BCBD286AEA26000AD959 /* LMMyAlcoholVC.swift in Sources */,
+				84F1BCB9286ADE37000AD959 /* LMMyPoloticalLearningVC.swift in Sources */,
+				84B764342817C8E900420601 /* LMCreateAccountPopupVC.swift in Sources */,
+				84791D59284F3D560016556E /* SettingsTableViewDelegate.swift in Sources */,
+				84C2C38328487C490039B365 /* LMMenuVC.swift in Sources */,
+				84DEED1C283628F800762A71 /* LMMaybeMatchesVC.swift in Sources */,
+				8439282B283CF17B00A35EFC /* LMMaybeMatchesVM.swift in Sources */,
+				84C05067281190060087E4E4 /* LMUserJobVC.swift in Sources */,
+				846E69072840DB570067274A /* UIImageExtension.swift in Sources */,
+				8427F815286D7E840058ED8F /* LMShowPhotosCC.swift in Sources */,
+				84AB667A28464859006E5818 /* SubscriptionPageview.swift in Sources */,
+				847D4F71284E1F2700532C98 /* LMAboutUsVC.swift in Sources */,
+				84B801CB283B4E51008CB34B /* MatchSelectedCollectionView.swift in Sources */,
+				84392828283CEC4F00A35EFC /* LMHomeMapVM.swift in Sources */,
+				8447C75128643B5E0025CEAB /* FooterCell.swift in Sources */,
+				8428608A2851CBE4006548CA /* LMMyBookingsTC.swift in Sources */,
+				847EE4DB27FB20F300BA4771 /* LMWelcomeScreenVC.swift in Sources */,
+				847C0AE8285334B300736637 /* LMInvitesSentVC.swift in Sources */,
+				847EE4D727FB20F300BA4771 /* AppDelegate.swift in Sources */,
+				84AB03352834BE6E00425AF9 /* PaymentPickerViewDelegate.swift in Sources */,
+				841CD7BE2869E400001B3C1A /* LMMyIntrestAgeVC.swift in Sources */,
+				841551FB2825395E003AC36B /* EventModel.swift in Sources */,
+				84B3C3F72865C66C004DD1F7 /* LMMyPhotosVC.swift in Sources */,
+				841CD7B82869C440001B3C1A /* LMMyHeightVC.swift in Sources */,
+				8466B498282A81CE00E9507C /* WebServices+Home.swift in Sources */,
+				84FFF537282BD4A700DD5C76 /* LMEventsPageVC.swift in Sources */,
+				84EA22A02847370200736479 /* LMSubscriptionVM.swift in Sources */,
+				84374D9D283E1738003753F0 /* LMMatchSelectedVM.swift in Sources */,
+				84CC986228A0F851001015C7 /* ShareToInsta.swift in Sources */,
+				844E7FC32863018E008F7A18 /* LMMyBioTC.swift in Sources */,
+				84C5D805285B020F00C90761 /* InviteRequiredTableviewDelegate.swift in Sources */,
+				847EE4D927FB20F300BA4771 /* SceneDelegate.swift in Sources */,
+				84CC986528A0F8A0001015C7 /* InstagramHandler.swift in Sources */,
+				84B326CC28573D2100B4B904 /* LMInvitesSentTC.swift in Sources */,
+				84C5D80E285B15AC00C90761 /* BookingTableviewDelegate.swift in Sources */,
+				844E7FC7286302FB008F7A18 /* LMMyBioQuesTC.swift in Sources */,
+				8421C2FA27FEC37F00F4A709 /* PhoneNumberModel.swift in Sources */,
+				8466B483282A3F2C00E9507C /* UserHomeTownTextFieldDelegate .swift in Sources */,
+				8466B4552829715800E9507C /* LMCollectionHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4E827FB20F500BA4771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EE4F127FB20F500BA4771 /* LumiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847EE4F227FB20F500BA4771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EE4FB27FB20F500BA4771 /* LumiUITests.swift in Sources */,
+				847EE4FD27FB20F500BA4771 /* LumiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847EE4EE27FB20F500BA4771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847EE4D227FB20F300BA4771 /* Lumi */;
+			targetProxy = 847EE4ED27FB20F500BA4771 /* PBXContainerItemProxy */;
+		};
+		847EE4F827FB20F500BA4771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847EE4D227FB20F300BA4771 /* Lumi */;
+			targetProxy = 847EE4F727FB20F500BA4771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847EE4E427FB20F500BA4771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847EE4E527FB20F500BA4771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847EE4FE27FB20F500BA4771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847EE4FF27FB20F500BA4771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847EE50127FB20F500BA4771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D33F71640F8D69549C1BA2 /* Pods-Lumi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3VJ6JQBLJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lumi/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = PreLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Lumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847EE50227FB20F500BA4771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD5C94B3C9E15BEB35E149B /* Pods-Lumi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VJ6JQBLJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lumi/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = PreLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Lumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847EE50427FB20F500BA4771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16E398BFD1678958DAC64C4 /* Pods-LumiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.LumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumi.app/Lumi";
+			};
+			name = Debug;
+		};
+		847EE50527FB20F500BA4771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE487FDB42A2E3CB0556F034 /* Pods-LumiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.LumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumi.app/Lumi";
+			};
+			name = Release;
+		};
+		847EE50727FB20F500BA4771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029BB656B9948AF6DDFD054F /* Pods-Lumi-LumiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.LumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumi;
+			};
+			name = Debug;
+		};
+		847EE50827FB20F500BA4771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B591AD7B2C43F0E98614BE6E /* Pods-Lumi-LumiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.LumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847EE4CE27FB20F300BA4771 /* Build configuration list for PBXProject "Lumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EE4FE27FB20F500BA4771 /* Debug */,
+				847EE4FF27FB20F500BA4771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EE50027FB20F500BA4771 /* Build configuration list for PBXNativeTarget "Lumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EE50127FB20F500BA4771 /* Debug */,
+				847EE50227FB20F500BA4771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EE50327FB20F500BA4771 /* Build configuration list for PBXNativeTarget "LumiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EE50427FB20F500BA4771 /* Debug */,
+				847EE50527FB20F500BA4771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EE50627FB20F500BA4771 /* Build configuration list for PBXNativeTarget "LumiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EE50727FB20F500BA4771 /* Debug */,
+				847EE50827FB20F500BA4771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847EE4DF27FB20F300BA4771 /* Lumi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847EE4E027FB20F300BA4771 /* Lumi.xcdatamodel */,
+			);
+			currentVersion = 847EE4E027FB20F300BA4771 /* Lumi.xcdatamodel */;
+			path = Lumi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847EE4CB27FB20F300BA4771 /* Project object */;
+}

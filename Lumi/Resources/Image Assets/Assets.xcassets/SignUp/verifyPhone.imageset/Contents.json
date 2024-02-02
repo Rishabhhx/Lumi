@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "icPhoneVerifiedIllustration.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icPhoneVerifiedIllustration@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icPhoneVerifiedIllustration@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
